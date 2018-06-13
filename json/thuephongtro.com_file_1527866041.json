@@ -1,0 +1,752 @@
+[
+    {
+        "text": "\u0110\u0103ng nh\u1eadp",
+        "attributes": {
+            "href": "\/dang-nhap.html",
+            "rel": "nofollow",
+            "title": "\u0110\u0103ng nh\u1eadp"
+        }
+    },
+    {
+        "text": "\u0110\u0103ng k\u00fd",
+        "attributes": {
+            "href": "\/dang-ky.html",
+            "rel": "nofollow",
+            "title": "\u0110\u0103ng k\u00fd"
+        }
+    },
+    {
+        "text": "Cho thu\u00ea cho thu\u00ea ph\u00f2ng tr\u1ecd",
+        "attributes": {
+            "class": "logo",
+            "href": "\/"
+        }
+    },
+    {
+        "text": "",
+        "attributes": {
+            "href": "https:\/\/thuephongtro.com\/",
+            "target": "_blank"
+        }
+    },
+    {
+        "text": "Trang ch\u1ee7",
+        "attributes": {
+            "href": "\/",
+            "title": "Trang ch\u1ee7"
+        }
+    },
+    {
+        "text": "Cho thu\u00ea ph\u00f2ng tr\u1ecd",
+        "attributes": {
+            "href": "\/phong-tro\/",
+            "title": "Cho thu\u00ea ph\u00f2ng tr\u1ecd"
+        }
+    },
+    {
+        "text": "TP H\u1ed3 Ch\u00ed Minh",
+        "attributes": {
+            "href": "\/phong-tro\/tp-ho-chi-minh.html",
+            "title": "TP H\u1ed3 Ch\u00ed Minh"
+        }
+    },
+    {
+        "text": "H\u00e0 N\u1ed9i",
+        "attributes": {
+            "href": "\/phong-tro\/ha-noi.html",
+            "title": "H\u00e0 N\u1ed9i"
+        }
+    },
+    {
+        "text": "B\u00ecnh D\u01b0\u01a1ng",
+        "attributes": {
+            "href": "\/phong-tro\/binh-duong.html",
+            "title": "B\u00ecnh D\u01b0\u01a1ng"
+        }
+    },
+    {
+        "text": "\u0110\u1ed3ng Nai",
+        "attributes": {
+            "href": "\/phong-tro\/dong-nai.html",
+            "title": "\u0110\u1ed3ng Nai"
+        }
+    },
+    {
+        "text": "V\u0169ng T\u00e0u",
+        "attributes": {
+            "href": "\/phong-tro\/vung-tau.html",
+            "title": "V\u0169ng T\u00e0u"
+        }
+    },
+    {
+        "text": "C\u1ea7n Th\u01a1",
+        "attributes": {
+            "href": "\/phong-tro\/can-tho.html",
+            "title": "C\u1ea7n Th\u01a1"
+        }
+    },
+    {
+        "text": "H\u1ea3i Ph\u00f2ng",
+        "attributes": {
+            "href": "\/phong-tro\/hai-phong.html",
+            "title": "H\u1ea3i Ph\u00f2ng"
+        }
+    },
+    {
+        "text": "\u0110\u00e0 N\u1eb5ng",
+        "attributes": {
+            "href": "\/phong-tro\/da-nang.html",
+            "title": "\u0110\u00e0 N\u1eb5ng"
+        }
+    },
+    {
+        "text": "Th\u1eeba Thi\u00ean Hu\u1ebf",
+        "attributes": {
+            "href": "\/phong-tro\/thua-thien-hue.html",
+            "title": "Th\u1eeba Thi\u00ean Hu\u1ebf"
+        }
+    },
+    {
+        "text": "Nh\u00e0 cho thu\u00ea",
+        "attributes": {
+            "href": "\/nha-cho-thue\/",
+            "title": "Nh\u00e0 cho thu\u00ea"
+        }
+    },
+    {
+        "text": "TP H\u1ed3 Ch\u00ed Minh",
+        "attributes": {
+            "href": "\/nha-cho-thue\/tp-ho-chi-minh.html",
+            "title": "TP H\u1ed3 Ch\u00ed Minh"
+        }
+    },
+    {
+        "text": "H\u00e0 N\u1ed9i",
+        "attributes": {
+            "href": "\/nha-cho-thue\/ha-noi.html",
+            "title": "H\u00e0 N\u1ed9i"
+        }
+    },
+    {
+        "text": "B\u00ecnh D\u01b0\u01a1ng",
+        "attributes": {
+            "href": "\/nha-cho-thue\/binh-duong.html",
+            "title": "B\u00ecnh D\u01b0\u01a1ng"
+        }
+    },
+    {
+        "text": "\u0110\u1ed3ng Nai",
+        "attributes": {
+            "href": "\/nha-cho-thue\/dong-nai.html",
+            "title": "\u0110\u1ed3ng Nai"
+        }
+    },
+    {
+        "text": "V\u0169ng T\u00e0u",
+        "attributes": {
+            "href": "\/nha-cho-thue\/vung-tau.html",
+            "title": "V\u0169ng T\u00e0u"
+        }
+    },
+    {
+        "text": "C\u1ea7n Th\u01a1",
+        "attributes": {
+            "href": "\/nha-cho-thue\/can-tho.html",
+            "title": "C\u1ea7n Th\u01a1"
+        }
+    },
+    {
+        "text": "H\u1ea3i Ph\u00f2ng",
+        "attributes": {
+            "href": "\/nha-cho-thue\/hai-phong.html",
+            "title": "H\u1ea3i Ph\u00f2ng"
+        }
+    },
+    {
+        "text": "\u0110\u00e0 N\u1eb5ng",
+        "attributes": {
+            "href": "\/nha-cho-thue\/da-nang.html",
+            "title": "\u0110\u00e0 N\u1eb5ng"
+        }
+    },
+    {
+        "text": "Th\u1eeba Thi\u00ean Hu\u1ebf",
+        "attributes": {
+            "href": "\/nha-cho-thue\/thua-thien-hue.html",
+            "title": "Th\u1eeba Thi\u00ean Hu\u1ebf"
+        }
+    },
+    {
+        "text": "T\u00ecm ng\u01b0\u1eddi \u1edf gh\u00e9p",
+        "attributes": {
+            "href": "\/tim-nguoi-o-ghep\/",
+            "title": "T\u00ecm ng\u01b0\u1eddi \u1edf gh\u00e9p"
+        }
+    },
+    {
+        "text": "TP H\u1ed3 Ch\u00ed Minh",
+        "attributes": {
+            "href": "\/tim-nguoi-o-ghep\/tp-ho-chi-minh.html",
+            "title": "TP H\u1ed3 Ch\u00ed Minh"
+        }
+    },
+    {
+        "text": "H\u00e0 N\u1ed9i",
+        "attributes": {
+            "href": "\/tim-nguoi-o-ghep\/ha-noi.html",
+            "title": "H\u00e0 N\u1ed9i"
+        }
+    },
+    {
+        "text": "B\u00ecnh D\u01b0\u01a1ng",
+        "attributes": {
+            "href": "\/tim-nguoi-o-ghep\/binh-duong.html",
+            "title": "B\u00ecnh D\u01b0\u01a1ng"
+        }
+    },
+    {
+        "text": "\u0110\u1ed3ng Nai",
+        "attributes": {
+            "href": "\/tim-nguoi-o-ghep\/dong-nai.html",
+            "title": "\u0110\u1ed3ng Nai"
+        }
+    },
+    {
+        "text": "V\u0169ng T\u00e0u",
+        "attributes": {
+            "href": "\/tim-nguoi-o-ghep\/vung-tau.html",
+            "title": "V\u0169ng T\u00e0u"
+        }
+    },
+    {
+        "text": "C\u1ea7n Th\u01a1",
+        "attributes": {
+            "href": "\/tim-nguoi-o-ghep\/can-tho.html",
+            "title": "C\u1ea7n Th\u01a1"
+        }
+    },
+    {
+        "text": "H\u1ea3i Ph\u00f2ng",
+        "attributes": {
+            "href": "\/tim-nguoi-o-ghep\/hai-phong.html",
+            "title": "H\u1ea3i Ph\u00f2ng"
+        }
+    },
+    {
+        "text": "\u0110\u00e0 N\u1eb5ng",
+        "attributes": {
+            "href": "\/tim-nguoi-o-ghep\/da-nang.html",
+            "title": "\u0110\u00e0 N\u1eb5ng"
+        }
+    },
+    {
+        "text": "Th\u1eeba Thi\u00ean Hu\u1ebf",
+        "attributes": {
+            "href": "\/tim-nguoi-o-ghep\/thua-thien-hue.html",
+            "title": "Th\u1eeba Thi\u00ean Hu\u1ebf"
+        }
+    },
+    {
+        "text": "H\u01b0\u1edbng d\u1eabn",
+        "attributes": {
+            "href": "\/huong-dan.html"
+        }
+    },
+    {
+        "text": "\u0110\u0102NG TIN",
+        "attributes": {
+            "href": "\/dang-tin.html",
+            "title": "\u0110\u0103ng tin"
+        }
+    },
+    {
+        "text": "Trang ch\u1ee7",
+        "attributes": {
+            "href": "\/",
+            "class": "first"
+        }
+    },
+    {
+        "text": "Cho thu\u00ea ph\u00f2ng tr\u1ecd",
+        "attributes": {
+            "href": "\/phong-tro\/"
+        }
+    },
+    {
+        "text": "TP H\u1ed3 Ch\u00ed Minh",
+        "attributes": {
+            "href": "\/phong-tro\/tp-ho-chi-minh.html"
+        }
+    },
+    {
+        "text": "Qu\u1eadn 11",
+        "attributes": {
+            "href": "\/phong-tro\/11c\/quan-11.html"
+        }
+    },
+    {
+        "text": "PH\u00d2NG CAO C\u1ea4P D\u1ea0NG C\u0102N H\u1ed8 MINI, FULL N\u1ed8I TH\u1ea4T, NH\u00c0 M\u1edaI X\u00c2Y 127\/17 \u00c2U C\u01a0, TT Q.11.",
+        "attributes": {
+            "class": "vip0",
+            "title": "PH\u00d2NG CAO C\u1ea4P D\u1ea0NG C\u0102N H\u1ed8 MINI, FULL N\u1ed8I TH\u1ea4T, NH\u00c0 M\u1edaI X\u00c2Y 127\/17 \u00c2U C\u01a0, TT Q.11.",
+            "href": "\/phong-tro\/146759\/phong-cao-cap-dang-can-ho-mini-full-noi-that-nha-moi-xay-127-17-au-co-tt-q-11.html"
+        }
+    },
+    {
+        "text": "PH\u00d2NG CHO THU\u00ca S\u1ea0CH \u0110\u1eb8P \u0110\u1ea6Y \u0110\u1ee6 TI\u1ec6N NGHI \u1ede QU\u1eacN 11.",
+        "attributes": {
+            "class": "vip0",
+            "title": "PH\u00d2NG CHO THU\u00ca S\u1ea0CH \u0110\u1eb8P \u0110\u1ea6Y \u0110\u1ee6 TI\u1ec6N NGHI \u1ede QU\u1eacN 11.",
+            "href": "\/phong-tro\/130458\/phong-cho-thue-sach-dep-day-du-tien-nghi-o-quan-11.html"
+        }
+    },
+    {
+        "text": "Cho thu\u00ea phong Q.11, toilet ri\u00eang l\u1ea7u \u0111\u00fac, s\u1ea1ch s\u1ebd , tho\u00e1ng m\u00e1t Ms Tr\u00e2m 0908513422",
+        "attributes": {
+            "class": "vip0",
+            "title": "Cho thu\u00ea phong Q.11, toilet ri\u00eang l\u1ea7u \u0111\u00fac, s\u1ea1ch s\u1ebd , tho\u00e1ng m\u00e1t Ms Tr\u00e2m 0908513422",
+            "href": "\/phong-tro\/135851\/cho-thue-phong-q-11-toilet-rieng-lau-duc-sach-se-thoang-mat-ms-tram-0908513422.html"
+        }
+    },
+    {
+        "text": "Ph\u00f2ng tr\u1ecd m\u1edbi x\u00e2y G\u1ea7n CV \u0110\u1ea7m Sen",
+        "attributes": {
+            "class": "vip0",
+            "title": "Ph\u00f2ng tr\u1ecd m\u1edbi x\u00e2y G\u1ea7n CV \u0110\u1ea7m Sen",
+            "href": "\/phong-tro\/150479\/phong-tro-moi-xay-gan-cv-dam-sen.html"
+        }
+    },
+    {
+        "text": "Ph\u00f2ng \u1edf gh\u00e9pQu\u1eadn 11\u0110\u1ea1i h\u1ecdc b\u00e1ch khoa",
+        "attributes": {
+            "class": "vip0",
+            "title": "Ph\u00f2ng \u1edf gh\u00e9pQu\u1eadn 11\u0110\u1ea1i h\u1ecdc b\u00e1ch khoa",
+            "href": "\/phong-tro\/150875\/phong-o-ghep-quan-11-dai-hoc-bach-khoa.html"
+        }
+    },
+    {
+        "text": "Ph\u00f2ng Cao c\u1ea5p m\u00e1y l\u1ea1nh DT 20 m2 Gi\u00e1 t\u1eeb 3tr5 Khu P6, Q11",
+        "attributes": {
+            "class": "vip0",
+            "title": "Ph\u00f2ng Cao c\u1ea5p m\u00e1y l\u1ea1nh DT 20 m2 Gi\u00e1 t\u1eeb 3tr5 Khu P6, Q11",
+            "href": "\/phong-tro\/111323\/phong-cao-cap-may-lanh-dt-20-m2-gia-tu-3tr5-khu-p6-q11.html"
+        }
+    },
+    {
+        "text": "Ph\u00f2ng \u0110\u1eb9p 2tr8 Ti\u1ec7n nghi Kh\u00e1ch s\u1ea1nThang m\u00e1y,Khu l\u1ecbch s\u1ef1 tr\u00ed th\u1ee9c Q11",
+        "attributes": {
+            "class": "vip0",
+            "title": "Ph\u00f2ng \u0110\u1eb9p 2tr8 Ti\u1ec7n nghi Kh\u00e1ch s\u1ea1nThang m\u00e1y,Khu l\u1ecbch s\u1ef1 tr\u00ed th\u1ee9c Q11",
+            "href": "\/phong-tro\/102083\/phong-dep-2tr8-tien-nghi-khach-san-thang-may-khu-lich-su-tri-thuc-q11.html"
+        }
+    },
+    {
+        "text": "Ph\u00f2ng cho thu\u00ea k\u1ebf b\u1ebfn xe Mi\u1ec1n T\u00e2y BV Tri\u1ec1u An, an ninh, y\u00ean t\u0129nh",
+        "attributes": {
+            "class": "vip0",
+            "title": "Ph\u00f2ng cho thu\u00ea k\u1ebf b\u1ebfn xe Mi\u1ec1n T\u00e2y BV Tri\u1ec1u An, an ninh, y\u00ean t\u0129nh",
+            "href": "\/phong-tro\/123516\/phong-cho-thue-ke-ben-xe-mien-tay-bv-trieu-an-an-ninh-yen-tinh.html"
+        }
+    },
+    {
+        "text": "CH\u00cdNH CH\u1ee6 CHO THU\u00ca PH\u00d2NG G\u1ea6N NG\u00c3 4 \u00c2U C\u01a0 L\u1ea0C LONG QU\u00c2N",
+        "attributes": {
+            "class": "vip0",
+            "title": "CH\u00cdNH CH\u1ee6 CHO THU\u00ca PH\u00d2NG G\u1ea6N NG\u00c3 4 \u00c2U C\u01a0 L\u1ea0C LONG QU\u00c2N",
+            "href": "\/phong-tro\/150838\/chinh-chu-cho-thue-phong-gan-nga-4-au-co-lac-long-quan.html"
+        }
+    },
+    {
+        "text": "Qu\u1eadn 11KTX M\u00e1y L\u1ea1nh Gi\u00e1 R\u1ebb Cho SInh Vi\u00ean400k\/Gi\u01b0\u1eddng",
+        "attributes": {
+            "class": "vip0",
+            "title": "Qu\u1eadn 11KTX M\u00e1y L\u1ea1nh Gi\u00e1 R\u1ebb Cho SInh Vi\u00ean400k\/Gi\u01b0\u1eddng",
+            "href": "\/phong-tro\/150175\/quan-11ktx-may-lanh-gia-re-cho-sinh-vien400k-giuong.html"
+        }
+    },
+    {
+        "text": "PH\u00f2ng tr\u1ecd gi\u00e1 r\u1ebb Qu\u1eadn 11",
+        "attributes": {
+            "class": "vip0",
+            "title": "PH\u00f2ng tr\u1ecd gi\u00e1 r\u1ebb Qu\u1eadn 11",
+            "href": "\/phong-tro\/129797\/phong-tro-gia-re-quan-11.html"
+        }
+    },
+    {
+        "text": "Cho Thu\u00ea Ph\u00f2ng Tr\u1ecd Q11",
+        "attributes": {
+            "class": "vip0",
+            "title": "Cho Thu\u00ea Ph\u00f2ng Tr\u1ecd Q11",
+            "href": "\/phong-tro\/129470\/cho-thue-phong-tro-q11.html"
+        }
+    },
+    {
+        "text": "Tuy\u1ec3n 2 v\u1ee3 ch\u1ed3ng l\u1edbn tu\u1ed5i v\u1ec1 h\u01b0u giao tr\u00f4ng coi nh\u00e0 tr\u1ecd sv",
+        "attributes": {
+            "class": "vip0",
+            "title": "Tuy\u1ec3n 2 v\u1ee3 ch\u1ed3ng l\u1edbn tu\u1ed5i v\u1ec1 h\u01b0u giao tr\u00f4ng coi nh\u00e0 tr\u1ecd sv",
+            "href": "\/phong-tro\/77136\/tuyen-2-vo-chong-lon-tuoi-ve-huu-giao-trong-coi-nha-tro-sv.html"
+        }
+    },
+    {
+        "text": "Ph\u00f2ng cho thu\u00ea q11 nhi\u1ec1u di\u1ec7n t\u00edch 183260m2 t\u1eeb 2tr56tr",
+        "attributes": {
+            "class": "vip0",
+            "title": "Ph\u00f2ng cho thu\u00ea q11 nhi\u1ec1u di\u1ec7n t\u00edch 183260m2 t\u1eeb 2tr56tr",
+            "href": "\/phong-tro\/150792\/phong-cho-thue-q11-nhieu-dien-tich-18-32-60m2-tu-2tr5-6tr.html"
+        }
+    },
+    {
+        "text": "Ph\u00f2ng n\u1eef 1.2tr \u0110\u1ea7m Sen 972025524",
+        "attributes": {
+            "class": "vip0",
+            "title": "Ph\u00f2ng n\u1eef 1.2tr \u0110\u1ea7m Sen 972025524",
+            "href": "\/phong-tro\/150776\/phong-nu-1-2tr-dam-sen-972025524.html"
+        }
+    },
+    {
+        "text": "Ph\u00f2ng tr\u1ecd cho thu\u00ea Ph\u00f2ng nh\u1ecf 1 tri\u1ec7u Ph\u00f2ng l\u1edbn 1.8 tri\u1ec7u Qu\u1eadn 11 G\u1ea7n nh\u00e0 thi \u0111\u1ea5u Ph\u00fa Th\u1ecd",
+        "attributes": {
+            "class": "vip0",
+            "title": "Ph\u00f2ng tr\u1ecd cho thu\u00ea Ph\u00f2ng nh\u1ecf 1 tri\u1ec7u Ph\u00f2ng l\u1edbn 1.8 tri\u1ec7u Qu\u1eadn 11 G\u1ea7n nh\u00e0 thi \u0111\u1ea5u Ph\u00fa Th\u1ecd",
+            "href": "\/phong-tro\/150703\/phong-tro-cho-thue-phong-nho-1-trieu-phong-lon-1-8-trieu-quan-11-gan-nha-thi-dau-phu-tho.html"
+        }
+    },
+    {
+        "text": "CHO THU\u00ca PH\u00d2NG TR\u1ecc AN NINH S\u1ea0CH S\u1ebc T\u1ea0I Q11",
+        "attributes": {
+            "class": "vip0",
+            "title": "CHO THU\u00ca PH\u00d2NG TR\u1ecc AN NINH S\u1ea0CH S\u1ebc T\u1ea0I Q11",
+            "href": "\/phong-tro\/150702\/cho-thue-phong-tro-an-ninh-sach-se-tai-q11.html"
+        }
+    },
+    {
+        "text": "Ph\u00f2ng tr\u1ecd gi\u00e1 r\u1ebb t\u1ea1i qu\u1eadn 11",
+        "attributes": {
+            "class": "vip0",
+            "title": "Ph\u00f2ng tr\u1ecd gi\u00e1 r\u1ebb t\u1ea1i qu\u1eadn 11",
+            "href": "\/phong-tro\/150679\/phong-tro-gia-re-tai-quan-11.html"
+        }
+    },
+    {
+        "text": "Cho Thu\u00ea Ph\u00f2ng Tr\u1ecd \u1ede 44 Nguy\u1ec5n Ch\u00ed Thanh Qu\u1eadn 11 Tphcm",
+        "attributes": {
+            "class": "vip0",
+            "title": "Cho Thu\u00ea Ph\u00f2ng Tr\u1ecd \u1ede 44 Nguy\u1ec5n Ch\u00ed Thanh Qu\u1eadn 11 Tphcm",
+            "href": "\/phong-tro\/150671\/cho-thue-phong-tro-o-44-nguyen-chi-thanh-quan-11-tphcm.html"
+        }
+    },
+    {
+        "text": "CHO THU\u00ca PH\u00d2NG TR\u1ecc AN NINH S\u1ea0CH S\u1ebc T\u1ea0I Q11,Q5,Q10",
+        "attributes": {
+            "class": "vip0",
+            "title": "CHO THU\u00ca PH\u00d2NG TR\u1ecc AN NINH S\u1ea0CH S\u1ebc T\u1ea0I Q11,Q5,Q10",
+            "href": "\/phong-tro\/150655\/cho-thue-phong-tro-an-ninh-sach-se-tai-q11-q5-q10.html"
+        }
+    },
+    {
+        "text": "Cho n\u1eef nh\u00e2n vi\u00ean \u0111i l\u00e0m ho\u1eb7c n\u1eef sinh vi\u00ean thu\u00ea ph\u00f2ng tr\u1ecd khu an ninh, s\u1ea1ch s\u1ebd.",
+        "attributes": {
+            "class": "vip0",
+            "title": "Cho n\u1eef nh\u00e2n vi\u00ean \u0111i l\u00e0m ho\u1eb7c n\u1eef sinh vi\u00ean thu\u00ea ph\u00f2ng tr\u1ecd khu an ninh, s\u1ea1ch s\u1ebd.",
+            "href": "\/phong-tro\/149159\/cho-nu-nhan-vien-di-lam-hoac-nu-sinh-vien-thue-phong-tro-khu-an-ninh-sach-se.html"
+        }
+    },
+    {
+        "text": "Cho thu\u00ea Ktx m\u00e1y l\u1ea1nh 400k\/th\u00e1ng, P.15, qu\u1eadn 11",
+        "attributes": {
+            "class": "vip0",
+            "title": "Cho thu\u00ea Ktx m\u00e1y l\u1ea1nh 400k\/th\u00e1ng, P.15, qu\u1eadn 11",
+            "href": "\/phong-tro\/150542\/cho-thue-ktx-may-lanh-400k-thang-p-15-quan-11.html"
+        }
+    },
+    {
+        "text": "Ph\u00f2ng tr\u1ecd cho thu\u00ea m\u1eb7t ti\u1ec1n gi\u00e1 r\u1ebb,wifi mi\u1ec5n ph\u00ed",
+        "attributes": {
+            "class": "vip0",
+            "title": "Ph\u00f2ng tr\u1ecd cho thu\u00ea m\u1eb7t ti\u1ec1n gi\u00e1 r\u1ebb,wifi mi\u1ec5n ph\u00ed",
+            "href": "\/phong-tro\/149331\/phong-tro-cho-thue-mat-tien-gia-re-wifi-mien-phi.html"
+        }
+    },
+    {
+        "text": "CHO THU\u00ca PH\u00d2NG TR\u1ecc AN NINH S\u1ea0CH S\u1ebc T\u1ea0I Q11",
+        "attributes": {
+            "class": "vip0",
+            "title": "CHO THU\u00ca PH\u00d2NG TR\u1ecc AN NINH S\u1ea0CH S\u1ebc T\u1ea0I Q11",
+            "href": "\/phong-tro\/150536\/cho-thue-phong-tro-an-ninh-sach-se-tai-q11.html"
+        }
+    },
+    {
+        "text": "CHO THU\u00ca PH\u00d2NG TR\u1ecc AN NINH S\u1ea0CH S\u1ebc T\u1ea0I Q11",
+        "attributes": {
+            "class": "vip0",
+            "title": "CHO THU\u00ca PH\u00d2NG TR\u1ecc AN NINH S\u1ea0CH S\u1ebc T\u1ea0I Q11",
+            "href": "\/phong-tro\/150472\/cho-thue-phong-tro-an-ninh-sach-se-tai-q11.html"
+        }
+    },
+    {
+        "text": "Ph\u00f2ng cao c\u1ea5p d\u1ea1ng c\u0103n h\u1ed9 mini full n\u1ed9i th\u1ea5t,L\u00fd th\u1eebong Ki\u1ec7t, 6 tr\/th\u00e1ng",
+        "attributes": {
+            "class": "vip0",
+            "title": "Ph\u00f2ng cao c\u1ea5p d\u1ea1ng c\u0103n h\u1ed9 mini full n\u1ed9i th\u1ea5t,L\u00fd th\u1eebong Ki\u1ec7t, 6 tr\/th\u00e1ng",
+            "href": "\/phong-tro\/146149\/phong-cao-cap-dang-can-ho-mini-full-noi-that-ly-thuong-kiet-6-tr-thang.html"
+        }
+    },
+    {
+        "text": "CHO N\u1eee THU\u00ca PH\u00d2NG TR\u1ecc AN NINH S\u1ea0CH S\u1ebc T\u1ea0I Q11",
+        "attributes": {
+            "class": "vip0",
+            "title": "CHO N\u1eee THU\u00ca PH\u00d2NG TR\u1ecc AN NINH S\u1ea0CH S\u1ebc T\u1ea0I Q11",
+            "href": "\/phong-tro\/150445\/cho-nu-thue-phong-tro-an-ninh-sach-se-tai-q11.html"
+        }
+    },
+    {
+        "text": "CHO N\u1eee THU\u00ca PH\u00d2NG TR\u1ecc AN NINH S\u1ea0CH S\u1ebc T\u1ea0I Q11",
+        "attributes": {
+            "class": "vip0",
+            "title": "CHO N\u1eee THU\u00ca PH\u00d2NG TR\u1ecc AN NINH S\u1ea0CH S\u1ebc T\u1ea0I Q11",
+            "href": "\/phong-tro\/150389\/cho-nu-thue-phong-tro-an-ninh-sach-se-tai-q11.html"
+        }
+    },
+    {
+        "text": "Ph\u00f2ng l\u1edbn, WC trong ph\u00f2ng. D\u00e0nh cho n\u1eef",
+        "attributes": {
+            "class": "vip0",
+            "title": "Ph\u00f2ng l\u1edbn, WC trong ph\u00f2ng. D\u00e0nh cho n\u1eef",
+            "href": "\/phong-tro\/131137\/phong-lon-wc-trong-phong-danh-cho-nu.html"
+        }
+    },
+    {
+        "text": "Qu\u1eadn 11KTX Sinh Vi\u00ean N\u1eef Gi\u00e1 R\u1ebb",
+        "attributes": {
+            "class": "vip0",
+            "title": "Qu\u1eadn 11KTX Sinh Vi\u00ean N\u1eef Gi\u00e1 R\u1ebb",
+            "href": "\/phong-tro\/150303\/quan-11-ktx-sinh-vien-nu-gia-re.html"
+        }
+    },
+    {
+        "text": "2",
+        "attributes": {
+            "href": "?p=2"
+        }
+    },
+    {
+        "text": "3",
+        "attributes": {
+            "href": "?p=3"
+        }
+    },
+    {
+        "text": "4",
+        "attributes": {
+            "href": "?p=4"
+        }
+    },
+    {
+        "text": "5",
+        "attributes": {
+            "href": "?p=5"
+        }
+    },
+    {
+        "text": "Sau \u00bb",
+        "attributes": {
+            "href": "?p=2"
+        }
+    },
+    {
+        "text": "",
+        "attributes": {
+            "href": "https:\/\/thuephongtro.com\/dang-tin-vip.html",
+            "target": "_blank"
+        }
+    },
+    {
+        "text": "Cho thu\u00ea ph\u00f2ng tr\u1ecd t\u1ea1i Qu\u1eadn 1",
+        "attributes": {
+            "href": "\/phong-tro\/1c\/quan-1.html"
+        }
+    },
+    {
+        "text": "Cho thu\u00ea ph\u00f2ng tr\u1ecd t\u1ea1i Qu\u1eadn 2",
+        "attributes": {
+            "href": "\/phong-tro\/2c\/quan-2.html"
+        }
+    },
+    {
+        "text": "Cho thu\u00ea ph\u00f2ng tr\u1ecd t\u1ea1i Qu\u1eadn 3",
+        "attributes": {
+            "href": "\/phong-tro\/3c\/quan-3.html"
+        }
+    },
+    {
+        "text": "Cho thu\u00ea ph\u00f2ng tr\u1ecd t\u1ea1i Qu\u1eadn 4",
+        "attributes": {
+            "href": "\/phong-tro\/4c\/quan-4.html"
+        }
+    },
+    {
+        "text": "Cho thu\u00ea ph\u00f2ng tr\u1ecd t\u1ea1i Qu\u1eadn 5",
+        "attributes": {
+            "href": "\/phong-tro\/5c\/quan-5.html"
+        }
+    },
+    {
+        "text": "Cho thu\u00ea ph\u00f2ng tr\u1ecd t\u1ea1i Qu\u1eadn 6",
+        "attributes": {
+            "href": "\/phong-tro\/6c\/quan-6.html"
+        }
+    },
+    {
+        "text": "Cho thu\u00ea ph\u00f2ng tr\u1ecd t\u1ea1i Qu\u1eadn 7",
+        "attributes": {
+            "href": "\/phong-tro\/7c\/quan-7.html"
+        }
+    },
+    {
+        "text": "Cho thu\u00ea ph\u00f2ng tr\u1ecd t\u1ea1i Qu\u1eadn 8",
+        "attributes": {
+            "href": "\/phong-tro\/8c\/quan-8.html"
+        }
+    },
+    {
+        "text": "Cho thu\u00ea ph\u00f2ng tr\u1ecd t\u1ea1i Qu\u1eadn 9",
+        "attributes": {
+            "href": "\/phong-tro\/9c\/quan-9.html"
+        }
+    },
+    {
+        "text": "Cho thu\u00ea ph\u00f2ng tr\u1ecd t\u1ea1i Qu\u1eadn 10",
+        "attributes": {
+            "href": "\/phong-tro\/10c\/quan-10.html"
+        }
+    },
+    {
+        "text": "Cho thu\u00ea ph\u00f2ng tr\u1ecd t\u1ea1i Qu\u1eadn 11",
+        "attributes": {
+            "href": "\/phong-tro\/11c\/quan-11.html"
+        }
+    },
+    {
+        "text": "Cho thu\u00ea ph\u00f2ng tr\u1ecd t\u1ea1i Qu\u1eadn 12",
+        "attributes": {
+            "href": "\/phong-tro\/12c\/quan-12.html"
+        }
+    },
+    {
+        "text": "Cho thu\u00ea ph\u00f2ng tr\u1ecd t\u1ea1i T\u00e2n B\u00ecnh",
+        "attributes": {
+            "href": "\/phong-tro\/13c\/tan-binh.html"
+        }
+    },
+    {
+        "text": "Cho thu\u00ea ph\u00f2ng tr\u1ecd t\u1ea1i Th\u1ee7 \u0110\u1ee9c",
+        "attributes": {
+            "href": "\/phong-tro\/14c\/thu-duc.html"
+        }
+    },
+    {
+        "text": "Cho thu\u00ea ph\u00f2ng tr\u1ecd t\u1ea1i G\u00f2 V\u1ea5p",
+        "attributes": {
+            "href": "\/phong-tro\/15c\/go-vap.html"
+        }
+    },
+    {
+        "text": "Cho thu\u00ea ph\u00f2ng tr\u1ecd t\u1ea1i B\u00ecnh T\u00e2n",
+        "attributes": {
+            "href": "\/phong-tro\/16c\/binh-tan.html"
+        }
+    },
+    {
+        "text": "Cho thu\u00ea ph\u00f2ng tr\u1ecd t\u1ea1i B\u00ecnh Th\u1ea1nh",
+        "attributes": {
+            "href": "\/phong-tro\/17c\/binh-thanh.html"
+        }
+    },
+    {
+        "text": "Cho thu\u00ea ph\u00f2ng tr\u1ecd t\u1ea1i T\u00e2n Ph\u00fa",
+        "attributes": {
+            "href": "\/phong-tro\/18c\/tan-phu.html"
+        }
+    },
+    {
+        "text": "Cho thu\u00ea ph\u00f2ng tr\u1ecd t\u1ea1i Ph\u00fa Nhu\u1eadn",
+        "attributes": {
+            "href": "\/phong-tro\/19c\/phu-nhuan.html"
+        }
+    },
+    {
+        "text": "Cho thu\u00ea ph\u00f2ng tr\u1ecd t\u1ea1i B\u00ecnh Ch\u00e1nh",
+        "attributes": {
+            "href": "\/phong-tro\/54c\/binh-chanh.html"
+        }
+    },
+    {
+        "text": "Cho thu\u00ea ph\u00f2ng tr\u1ecd t\u1ea1i Nh\u00e0 B\u00e8",
+        "attributes": {
+            "href": "\/phong-tro\/55c\/nha-be.html"
+        }
+    },
+    {
+        "text": "Cho thu\u00ea ph\u00f2ng tr\u1ecd t\u1ea1i H\u00f3c M\u00f4n",
+        "attributes": {
+            "href": "\/phong-tro\/56c\/hoc-mon.html"
+        }
+    },
+    {
+        "text": "Cho thu\u00ea ph\u00f2ng tr\u1ecd t\u1ea1i C\u1ea7n Gi\u1edd",
+        "attributes": {
+            "href": "\/phong-tro\/57c\/can-gio.html"
+        }
+    },
+    {
+        "text": "Cho thu\u00ea ph\u00f2ng tr\u1ecd t\u1ea1i C\u1ee7 Chi",
+        "attributes": {
+            "href": "\/phong-tro\/58c\/cu-chi.html"
+        }
+    },
+    {
+        "text": "Gi\u1edbi thi\u1ec7u",
+        "attributes": {
+            "href": "\/gioi-thieu.html",
+            "rel": "nofollow"
+        }
+    },
+    {
+        "text": "Quy \u0111\u1ecbnh",
+        "attributes": {
+            "href": "\/quy-dinh.html",
+            "rel": "nofollow"
+        }
+    },
+    {
+        "text": "H\u01b0\u1edbng d\u1eabn \u0111\u0103ng tin",
+        "attributes": {
+            "href": "\/huong-dan-dang-tin.html",
+            "rel": "nofollow"
+        }
+    },
+    {
+        "text": "Li\u00ean h\u1ec7",
+        "attributes": {
+            "href": "\/lien-he.html",
+            "rel": "nofollow"
+        }
+    },
+    {
+        "text": "",
+        "attributes": {
+            "href": "\/",
+            "title": "Thu\u00ea ph\u00f2ng tr\u1ecd"
+        }
+    },
+    {
+        "text": "Email: nhatroviet@gmail.com",
+        "attributes": {
+            "style": "border: none; margin: 0; padding: 0",
+            "rel": "nofollow",
+            "href": "mailto:nhatroviet@gmail.com?Subject=Li\u00ean h\u1ec7-nhatroviet@gmail.com",
+            "target": "_top"
+        }
+    }
+]

@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /admincp
+Disallow: /tai-khoan.htm
+
+Sitemap: https://muonnha.com.vn/sitemap_index.xml

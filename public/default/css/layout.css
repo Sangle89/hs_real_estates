@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+/*------------------*/
+#footer {width:100%; float:left; background:#18191b;padding:30px 0;}
+.footer{clear: both; max-width: 1170px; min-width: 320px; margin: 0 auto; background:#18191b; padding:15px 0px 0px 0px;}
+.footer-item{ width:33%; float:left; padding-bottom:15px;}
+.footer-item h3{font:bold 13px/18px Arial, Helvetica, sans-serif; text-transform:uppercase; width:100%; float:left; margin-bottom:10px; color:#FFF;border-bottom: 1px solid #444;;}
+.footer-item p{ width:100%; float:left; margin-bottom:10px; font:13px/20px Arial, Helvetica, sans-serif; color:#FFF;}
+#footer1 {width:100%; float:left; background:#18191b;border-top:1px solid #444}
+.footer1{clear: both; max-width: 815px; min-width: 320px; margin: 0 auto; text-align:center; padding-top:20px; padding-bottom:10px}
+.footer1 a{text-decoration:none; color:#3f9e88; font:14px Arial, Helvetica, sans-serif; border-right:#3f9e88 1px solid; line-height:15px; margin-right:5px;}
+.footer1 li{float: left;border-right: #3f9e88 1px solid; margin-left: 3px;}    
+.footer1 li:last-child{border: none;}
+.footer1 p{}
+.footer1 a:last-child{ border-right:none;}
+.footer2{clear: both; max-width: 950px; min-width: 320px; margin: 0 auto; text-align:center; padding:20px;}
+.footer2 a {text-decoration:none; color:#818181; font:14px Arial, Helvetica, sans-serif; border-right:#3f9e88 1px solid; line-height:15px; margin-right:5px;}
+.footer2 a:last-child{ border-right:none;}
+
+#footer {color:#fff;font-size: 13px;}
+.footer h3{border-bottom:2px solid #444;margin-bottom: 15px;padding-bottom: 10px;font-size: 20px}
+.footer ul li{margin-bottom: 5px;}
+.footer ul li a{color:#fff;padding: 3px;}

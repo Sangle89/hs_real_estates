@@ -1,0 +1,89 @@
+a:3:{s:4:"time";i:1528302035;s:3:"ttl";i:2592000;s:4:"data";a:88:{i:0;a:3:{s:2:"id";s:4:"4252";s:5:"title";s:3:"2
+";s:5:"alias";s:7:"duong-2";}i:1;a:3:{s:2:"id";s:4:"4160";s:5:"title";s:3:"3
+";s:5:"alias";s:7:"duong-3";}i:2;a:3:{s:2:"id";s:4:"4206";s:5:"title";s:3:"6
+";s:5:"alias";s:7:"duong-6";}i:3;a:3:{s:2:"id";s:4:"4040";s:5:"title";s:24:"Bà Huyện Thanh Quan
+";s:5:"alias";s:25:"duong-ba-huyen-thanh-quan";}i:4;a:3:{s:2:"id";s:4:"4076";s:5:"title";s:15:"Bà Lê Chân
+";s:5:"alias";s:16:"duong-ba-le-chan";}i:5;a:3:{s:2:"id";s:4:"4513";s:5:"title";s:13:"Bắc Hải
+";s:5:"alias";s:13:"duong-bac-hai";}i:6;a:3:{s:2:"id";s:4:"4530";s:5:"title";s:11:"Bàn Cờ
+";s:5:"alias";s:12:"duong-ban-co";}i:7;a:3:{s:2:"id";s:4:"4526";s:5:"title";s:31:"Bờ Bắc Kênh Nhiêu Lộc
+";s:5:"alias";s:27:"duong-bo-bac-kenh-nhieu-loc";}i:8;a:3:{s:2:"id";s:4:"4525";s:5:"title";s:29:"Bờ Nam Kênh Nhiêu Lộc
+";s:5:"alias";s:27:"duong-bo-nam-kenh-nhieu-loc";}i:9;a:3:{s:2:"id";s:4:"4119";s:5:"title";s:26:"Cách Mạng Tháng Tám
+";s:5:"alias";s:25:"duong-cach-mang-thang-tam";}i:10;a:3:{s:2:"id";s:4:"4507";s:5:"title";s:13:"Cao Thắng
+";s:5:"alias";s:15:"duong-cao-thang";}i:11;a:3:{s:2:"id";s:4:"4523";s:5:"title";s:18:"CT. Chiến sỹ
+";s:5:"alias";s:17:"duong-ct-chien-sy";}i:12;a:3:{s:2:"id";s:4:"4524";s:5:"title";s:16:"CT. Dân Chủ
+";s:5:"alias";s:16:"duong-ct-dan-chu";}i:13;a:3:{s:2:"id";s:4:"4548";s:5:"title";s:21:"Cư xá Đô Thành
+";s:5:"alias";s:20:"duong-cu-xa-do-thanh";}i:14;a:3:{s:2:"id";s:4:"3988";s:5:"title";s:16:"Hai Bà Trưng
+";s:5:"alias";s:18:"duong-hai-ba-trung";}i:15;a:3:{s:2:"id";s:4:"4510";s:5:"title";s:20:"Hồ Xuân Hương
+";s:5:"alias";s:19:"duong-ho-xuan-huong";}i:16;a:3:{s:2:"id";s:4:"4115";s:5:"title";s:12:"Hòa Hưng
+";s:5:"alias";s:14:"duong-hoa-hung";}i:17;a:3:{s:2:"id";s:4:"4006";s:5:"title";s:15:"Hoàng Diệu
+";s:5:"alias";s:16:"duong-hoang-dieu";}i:18;a:3:{s:2:"id";s:4:"4070";s:5:"title";s:11:"Hoàng Sa
+";s:5:"alias";s:14:"duong-hoang-sa";}i:19;a:3:{s:2:"id";s:4:"4516";s:5:"title";s:22:"Huỳnh Tịnh Của
+";s:5:"alias";s:20:"duong-huynh-tinh-cua";}i:20;a:3:{s:2:"id";s:4:"4545";s:5:"title";s:20:"Huỳnh Văn Bánh
+";s:5:"alias";s:20:"duong-huynh-van-banh";}i:21;a:3:{s:2:"id";s:4:"4549";s:5:"title";s:20:"Kênh Nhiêu Lộc
+";s:5:"alias";s:20:"duong-kenh-nhieu-loc";}i:22;a:3:{s:2:"id";s:4:"4517";s:5:"title";s:14:"Kỳ Đồng
+";s:5:"alias";s:13:"duong-ky-dong";}i:23;a:3:{s:2:"id";s:4:"4531";s:5:"title";s:15:"Lê Ngô Cát
+";s:5:"alias";s:16:"duong-le-ngo-cat";}i:24;a:3:{s:2:"id";s:4:"4004";s:5:"title";s:16:"Lê Quý Đôn
+";s:5:"alias";s:16:"duong-le-quy-don";}i:25;a:3:{s:2:"id";s:4:"4083";s:5:"title";s:18:"Lê Thị Riêng
+";s:5:"alias";s:18:"duong-le-thi-rieng";}i:26;a:3:{s:2:"id";s:4:"4512";s:5:"title";s:15:"Lê Văn Sỹ
+";s:5:"alias";s:15:"duong-le-van-sy";}i:27;a:3:{s:2:"id";s:4:"4547";s:5:"title";s:17:"Liên Phường
+";s:5:"alias";s:17:"duong-lien-phuong";}i:28;a:3:{s:2:"id";s:4:"4125";s:5:"title";s:20:"Lý Chính Thắng
+";s:5:"alias";s:20:"duong-ly-chinh-thang";}i:29;a:3:{s:2:"id";s:4:"4506";s:5:"title";s:16:"Lý Thái Tổ
+";s:5:"alias";s:16:"duong-ly-thai-to";}i:30;a:3:{s:2:"id";s:4:"4502";s:5:"title";s:22:"Lý Thường Kiệt
+";s:5:"alias";s:20:"duong-ly-thuong-kiet";}i:31;a:3:{s:2:"id";s:4:"4051";s:5:"title";s:24:"Nam Kỳ Khởi Nghĩa
+";s:5:"alias";s:23:"duong-nam-ky-khoi-nghia";}i:32;a:3:{s:2:"id";s:4:"4537";s:5:"title";s:21:"Ngô Thời Nhiệm
+";s:5:"alias";s:20:"duong-ngo-thoi-nhiem";}i:33;a:3:{s:2:"id";s:4:"4515";s:5:"title";s:17:"Nguyễn Biểu
+";s:5:"alias";s:17:"duong-nguyen-bieu";}i:34;a:3:{s:2:"id";s:4:"3994";s:5:"title";s:13:"Nguyễn Du
+";s:5:"alias";s:15:"duong-nguyen-du";}i:35;a:3:{s:2:"id";s:4:"4504";s:5:"title";s:22:"Nguyễn Gia Thiều
+";s:5:"alias";s:22:"duong-nguyen-gia-thieu";}i:36;a:3:{s:2:"id";s:4:"4521";s:5:"title";s:17:"Nguyễn Hiền
+";s:5:"alias";s:17:"duong-nguyen-hien";}i:37;a:3:{s:2:"id";s:4:"4544";s:5:"title";s:26:"Nguyễn Ngọc Phương
+";s:5:"alias";s:24:"duong-nguyen-ngoc-phuong";}i:38;a:3:{s:2:"id";s:4:"4529";s:5:"title";s:24:"Nguyễn Phúc Nguyên
+";s:5:"alias";s:24:"duong-nguyen-phuc-nguyen";}i:39;a:3:{s:2:"id";s:4:"4532";s:5:"title";s:19:"Nguyễn Sơn Hà
+";s:5:"alias";s:19:"duong-nguyen-son-ha";}i:40;a:3:{s:2:"id";s:4:"4130";s:5:"title";s:23:"Nguyễn Thị Diệu
+";s:5:"alias";s:21:"duong-nguyen-thi-dieu";}i:41;a:3:{s:2:"id";s:4:"4104";s:5:"title";s:26:"Nguyễn Thị Minh Khai
+";s:5:"alias";s:26:"duong-nguyen-thi-minh-khai";}i:42;a:3:{s:2:"id";s:4:"4546";s:5:"title";s:24:"Nguyễn Thị Nhiệm
+";s:5:"alias";s:22:"duong-nguyen-thi-nhiem";}i:43;a:3:{s:2:"id";s:4:"4503";s:5:"title";s:26:"Nguyễn Thiện Thuật
+";s:5:"alias";s:24:"duong-nguyen-thien-thuat";}i:44;a:3:{s:2:"id";s:4:"4520";s:5:"title";s:17:"Nguyễn Thông
+";s:5:"alias";s:18:"duong-nguyen-thong";}i:45;a:3:{s:2:"id";s:4:"4508";s:5:"title";s:27:"Nguyễn Thượng Hiền
+";s:5:"alias";s:24:"duong-nguyen-thuong-hien";}i:46;a:3:{s:2:"id";s:4:"4552";s:5:"title";s:20:"Nguyễn Văn Khai
+";s:5:"alias";s:21:"duong-nguyen-van-khai";}i:47;a:3:{s:2:"id";s:4:"4131";s:5:"title";s:19:"Nguyễn Văn Mai
+";s:5:"alias";s:20:"duong-nguyen-van-mai";}i:48;a:3:{s:2:"id";s:4:"4003";s:5:"title";s:22:"Nguyễn Văn Trỗi
+";s:5:"alias";s:21:"duong-nguyen-van-troi";}i:49;a:3:{s:2:"id";s:4:"4026";s:5:"title";s:25:"Nguyễn Đình Chiểu
+";s:5:"alias";s:23:"duong-nguyen-dinh-chieu";}i:50;a:3:{s:2:"id";s:4:"4102";s:5:"title";s:9:"Pasteur
+";s:5:"alias";s:13:"duong-pasteur";}i:51;a:3:{s:2:"id";s:4:"4012";s:5:"title";s:23:"Phạm Ngọc Thạch
+";s:5:"alias";s:21:"duong-pham-ngoc-thach";}i:52;a:3:{s:2:"id";s:4:"4533";s:5:"title";s:21:"Phạm Đình Toái
+";s:5:"alias";s:20:"duong-pham-dinh-toai";}i:53;a:3:{s:2:"id";s:4:"4527";s:5:"title";s:19:"Rạch Bùng Binh
+";s:5:"alias";s:20:"duong-rach-bung-binh";}i:54;a:3:{s:2:"id";s:4:"4416";s:5:"title";s:8:"Số 1
+";s:5:"alias";s:10:"duong-so-1";}i:55;a:3:{s:2:"id";s:4:"4538";s:5:"title";s:28:"Số 1 Cư xá Đô Thành
+";s:5:"alias";s:25:"duong-so-1-cu-xa-do-thanh";}i:56;a:3:{s:2:"id";s:4:"4429";s:5:"title";s:8:"Số 2
+";s:5:"alias";s:10:"duong-so-2";}i:57;a:3:{s:2:"id";s:4:"4539";s:5:"title";s:28:"Số 2 Cư xá Đô Thành
+";s:5:"alias";s:25:"duong-so-2-cu-xa-do-thanh";}i:58;a:3:{s:2:"id";s:4:"4426";s:5:"title";s:8:"Số 3
+";s:5:"alias";s:10:"duong-so-3";}i:59;a:3:{s:2:"id";s:4:"4540";s:5:"title";s:28:"Số 3 Cư xá Đô Thành
+";s:5:"alias";s:25:"duong-so-3-cu-xa-do-thanh";}i:60;a:3:{s:2:"id";s:4:"4435";s:5:"title";s:8:"Số 4
+";s:5:"alias";s:10:"duong-so-4";}i:61;a:3:{s:2:"id";s:4:"4541";s:5:"title";s:28:"Số 4 Cư xá Đô Thành
+";s:5:"alias";s:25:"duong-so-4-cu-xa-do-thanh";}i:62;a:3:{s:2:"id";s:4:"4550";s:5:"title";s:28:"Số 5 Cư Xá Đô Thành
+";s:5:"alias";s:25:"duong-so-5-cu-xa-do-thanh";}i:63;a:3:{s:2:"id";s:4:"4553";s:5:"title";s:28:"Số 6 Cư Xá Đô Thành
+";s:5:"alias";s:25:"duong-so-6-cu-xa-do-thanh";}i:64;a:3:{s:2:"id";s:4:"4551";s:5:"title";s:28:"Số 7 Cư xá Đô Thành
+";s:5:"alias";s:25:"duong-so-7-cu-xa-do-thanh";}i:65;a:3:{s:2:"id";s:4:"4554";s:5:"title";s:28:"Số 8 Cư Xá Đô Thành
+";s:5:"alias";s:25:"duong-so-8-cu-xa-do-thanh";}i:66;a:3:{s:2:"id";s:4:"4534";s:5:"title";s:21:"Sư Thiện Chiếu
+";s:5:"alias";s:20:"duong-su-thien-chieu";}i:67;a:3:{s:2:"id";s:4:"4514";s:5:"title";s:18:"Sư Vạn Hạnh
+";s:5:"alias";s:17:"duong-su-van-hanh";}i:68;a:3:{s:2:"id";s:4:"4027";s:5:"title";s:17:"Trần Cao Vân
+";s:5:"alias";s:18:"duong-tran-cao-van";}i:69;a:3:{s:2:"id";s:4:"4021";s:5:"title";s:21:"Trần Hưng Đạo
+";s:5:"alias";s:19:"duong-tran-hung-dao";}i:70;a:3:{s:2:"id";s:4:"4511";s:5:"title";s:19:"Trần Huy Liệu
+";s:5:"alias";s:19:"duong-tran-huy-lieu";}i:71;a:3:{s:2:"id";s:4:"4543";s:5:"title";s:21:"Trần Minh Quyền
+";s:5:"alias";s:21:"duong-tran-minh-quyen";}i:72;a:3:{s:2:"id";s:4:"4509";s:5:"title";s:21:"Trần Quang Diệu
+";s:5:"alias";s:21:"duong-tran-quang-dieu";}i:73;a:3:{s:2:"id";s:4:"4129";s:5:"title";s:22:"Trần Quốc Thảo
+";s:5:"alias";s:20:"duong-tran-quoc-thao";}i:74;a:3:{s:2:"id";s:4:"4505";s:5:"title";s:22:"Trần Quốc Toản
+";s:5:"alias";s:20:"duong-tran-quoc-toan";}i:75;a:3:{s:2:"id";s:4:"4528";s:5:"title";s:19:"Trần Văn Đang
+";s:5:"alias";s:19:"duong-tran-van-dang";}i:76;a:3:{s:2:"id";s:4:"4097";s:5:"title";s:20:"Trịnh Văn Cấn
+";s:5:"alias";s:19:"duong-trinh-van-can";}i:77;a:3:{s:2:"id";s:4:"4535";s:5:"title";s:18:"Trương Quyền
+";s:5:"alias";s:18:"duong-truong-quyen";}i:78;a:3:{s:2:"id";s:4:"4117";s:5:"title";s:14:"Trường Sa
+";s:5:"alias";s:15:"duong-truong-sa";}i:79;a:3:{s:2:"id";s:4:"4016";s:5:"title";s:18:"Trương Định
+";s:5:"alias";s:17:"duong-truong-dinh";}i:80;a:3:{s:2:"id";s:4:"4118";s:5:"title";s:13:"Tú Xương
+";s:5:"alias";s:14:"duong-tu-xuong";}i:81;a:3:{s:2:"id";s:4:"4128";s:5:"title";s:16:"Võ Thị Sáu
+";s:5:"alias";s:16:"duong-vo-thi-sau";}i:82;a:3:{s:2:"id";s:4:"4522";s:5:"title";s:16:"Võ Văn Tần
+";s:5:"alias";s:16:"duong-vo-van-tan";}i:83;a:3:{s:2:"id";s:4:"4536";s:5:"title";s:17:"Vườn Chuối
+";s:5:"alias";s:16:"duong-vuon-chuoi";}i:84;a:3:{s:2:"id";s:4:"4519";s:5:"title";s:20:"Đặng Văn Ngữ
+";s:5:"alias";s:18:"duong-dang-van-ngu";}i:85;a:3:{s:2:"id";s:4:"3999";s:5:"title";s:21:"Điện Biên Phủ
+";s:5:"alias";s:19:"duong-dien-bien-phu";}i:86;a:3:{s:2:"id";s:4:"4518";s:5:"title";s:19:"Đỗ Tấn Phong
+";s:5:"alias";s:18:"duong-do-tan-phong";}i:87;a:3:{s:2:"id";s:4:"4542";s:5:"title";s:20:"Đoàn Công Bửu
+";s:5:"alias";s:19:"duong-doan-cong-buu";}}}
