@@ -182,7 +182,7 @@ $big_news = !empty($results) ? $results[0]:'';
                             <a class="readmore" rel="nofollow" href="<?=site_url($big_news['category_alias'].'/'.$big_news['alias'])?>">[Xem thêm]</a>
                             </div>
                             <div class="right">
-                                    <a href="<?=site_url($big_news['category_alias'].'/'.$big_news['alias'])?>"><img src="<?=base_url('uploads/contents/'.$big_news['image'])?>" onerror="this.src=''"></a>
+                                    <a href="<?=site_url($big_news['category_alias'].'/'.$big_news['alias'])?>"><img src="<?=base_url('uploads/contents/'.$big_news['image'])?>" onerror="this.src='<?=ASSET_SERVER?>/theme/images/thumb_350x250.jpg'"></a>
                             </div>
                     </div>
                     
@@ -195,7 +195,7 @@ $big_news = !empty($results) ? $results[0]:'';
                         ?>
                         <div class="item">
                             <div class="news">
-                                <a href="<?=$banner['link']?>"><img src="<?=base_url($image_resize)?>" alt="<?=$banner['title']?>">
+                                <a href="<?=$banner['link']?>"><img src="<?=base_url($image_resize)?>" alt="<?=$banner['title']?>" onerror="this.src='<?=ASSET_SERVER?>/theme/images/thumb_350x250.jpg'">
                                     <p class="title"><?=$banner['title']?></p>
                                 </a>
                             </div>
@@ -220,7 +220,7 @@ $big_news = !empty($results) ? $results[0]:'';
                                 <a href="<?=site_url($item['category_alias'].'/'.$item['alias'])?>"><?=$item['title']?></a>
                                 </div>
                                 <div class="thumb">
-                                <a href="<?=site_url($item['category_alias'].'/'.$item['alias'])?>"><img src="<?=base_url($image_resize)?>" class="<?=$item['title']?>"/></a>
+                                <a href="<?=site_url($item['category_alias'].'/'.$item['alias'])?>"><img src="<?=base_url($image_resize)?>" class="<?=$item['title']?>" onerror="this.src='<?=ASSET_SERVER?>/theme/images/thumb_350x250.jpg'"/></a>
                                 </div>
                             </li>
                         <?php endif; endforeach ?>

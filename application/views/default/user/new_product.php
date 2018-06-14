@@ -1,5 +1,5 @@
-<script type="text/javascript" src="<?=base_url()?>theme/js/jquery-ui.min.js"></script>
-<link rel="stylesheet" type="text/css" href="<?=base_url()?>/assets/dist/css/custom.css">
+<script type="text/javascript" src="<?=ASSET_SERVER?>theme/js/jquery-ui.min.js"></script>
+<link rel="stylesheet" type="text/css" href="<?=ASSET_SERVER?>/assets/dist/css/custom.css">
 <style>
 .upload_multi_image li.add_image{
     vertical-align: middle;
@@ -12,13 +12,13 @@
     color:#fff;
 }
 </style>
-<script src="<?=base_url()?>assets/plugins/ajaxupload/SimpleAjaxUploader.min.js"></script>
+<script src="<?=ASSET_SERVER?>assets/plugins/ajaxupload/SimpleAjaxUploader.min.js"></script>
 <script>
 var num_image = 0;
 function addImage(obj, limit) {
     if(num_image < limit) {
         $.ajax({
-            url: '<?=base_url()?>/ajax/add_image',
+            url: '<?=ASSET_SERVER?>/ajax/add_image',
             type: 'post',
             dataType: 'html',
             success: function(html) {
@@ -487,7 +487,7 @@ function addImage(obj, limit) {
             </div>
         </section>
 <script src="https://maps.google.com/maps/api/js?key=<?=API_KEY?>"></script> <!-- Gmap Helper -->
-<script src="/theme/js/MapControls.js"></script>
+<script src="<?=ASSET_SERVER?>theme/js/MapControls.js"></script>
 <script>
 $(document).ready(function(){
     $('.datepicker').datepicker({
@@ -592,7 +592,7 @@ var btn = document.getElementById('uploadImages'),
       msgBox = document.getElementById('msgBoxImages');
     var uploader = new ss.SimpleUpload({
         button: btn,
-        url:  '<?= site_url()?>ajax/uploadRealEstate',
+        url:  '<?=ASSET_SERVER?>ajax/uploadRealEstate',
         name: 'uploadfile',
         allowedExtensions: ["jpg", "jpeg", "png", "gif", "JPG", "JPEG", "PNG", "GIF"],
         multipart: true,
@@ -628,7 +628,7 @@ var btn = document.getElementById('uploadImages'),
                 //msgBox.innerHTML = '<strong>' + ( filename ) + '</strong>' + ' successfully uploaded.';
                 //$('#uploadImage img').attr( 'src', response.file_url );
                 insertHtml = '<li id="row_images_'+count_images+'">';
-                insertHtml += '<span><img src="/uploads/images/'+response.file_name+'" width="120"></span>';
+                insertHtml += '<span><img src="<?=ASSET_SERVER?>uploads/images/'+response.file_name+'" width="120"></span>';
                 if(count_images==1) {
                     insertHtml += '<label><input type="radio" name="image_default" value="'+count_images+'" checked="checked"> Hình đại diện</label>';
                 } else {
@@ -653,13 +653,12 @@ var btn = document.getElementById('uploadImages'),
 });
 
 function removeImage(ElemID) {
-  
     if($('#valueImage'+ElemID).val() != '') {
         $.ajax({
-         url: 'ajax/deleteImage/' + $('#valueImage'+ElemID).val(),
+         url: '<?=ASSET_SERVER?>ajax/deleteImage/' + $('#valueImage'+ElemID).val(),
          type: 'get',
          success: function() {
-              $('#uploadImage img').attr('src', '<?=base_url('assets/images/bg-upload-image.png')?>');
+              $('#uploadImage img').attr('src', '<?=ASSET_SERVER . 'assets/images/bg-upload-image.png'?>');
 			  $('#uploadImage span').text('Click để upload ảnh');
          } ,
          onError: function() {

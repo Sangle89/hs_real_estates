@@ -26,7 +26,7 @@ if(USERTYPE == 'PC') :
                     <article class="col-md-4">
                         <div class="properties_grid feature">
 								<div class="img_holder">
-									<a href="<?=site_url($result['alias'])?>" title="<?=$result['title']?>"> <img src="<?=base_url($image_resize)?>" onerror="this.src='<?=base_url('theme/images/thumb1.jpg')?>'" alt="<?=$result['title']?>" class="img-responsive"></a>
+									<a href="<?=site_url($result['alias'])?>" title="<?=$result['title']?>"> <img src="<?=base_url($image_resize)?>" onerror="this.src='<?=ASSET_SERVER.'theme/images/thumb_350x250.jpg'?>'" alt="<?=$result['title']?>" class="img-responsive"></a>
         	                   </div> <!-- End .img_holder -->
                                 <div class="info">
 								    <h3 class="<?=$class?>"><a href="<?=site_url($result['alias'])?>" title="<?=$result['title']?>"><?=format_title(sub_string($result['title'],65))?></a></h3>

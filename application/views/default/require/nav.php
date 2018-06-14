@@ -9,9 +9,9 @@
               <span class="icon-bar"></span>
             </button>
             <?php if($cur_page == 'home') : ?>
-            <img src="<?=base_url()?>theme/images/logo.png" alt="Logo" id="logo" class="img-responsive">
+            <img src="<?=ASSET_SERVER?>theme/images/logo.png" alt="Logo" id="logo" class="img-responsive">
             <?php else: ?>
-            <a class="navbar-brand" href="/"><img src="<?=base_url()?>theme/images/logo.png" alt="Logo" id="logo" class="img-responsive"></a>
+            <a class="navbar-brand" href="<?=site_url()?>"><img src="<?=ASSET_SERVER?>theme/images/logo.png" alt="Logo" id="logo" class="img-responsive"></a>
             <?php endif; ?>
           </div>
           <div id="navbar" class="navbar-collapse collapse">
@@ -63,7 +63,7 @@
                     </ul>
                 <?php endif; ?>
               </li>
-              <li><a class="btn-dangtin" href="/dang-tin-cho-thue-nha.htm"><i class="fa fa-plus"></i> Đăng tin rao</a></li>
+              <li><a class="btn-dangtin" href="<?=site_url('dang-tin-cho-thue-nha')?>"><i class="fa fa-plus"></i> Đăng tin rao</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div><!--/.container-fluid -->

@@ -43,20 +43,20 @@
 		<link rel="icon" href="/favicon.ico">
 		<!-- Custom Css -->
         <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,600,700italic,600italic" />
-        <link rel="stylesheet" type="text/css" href="<?=base_url()?>theme/css/font-awesome.min.css">
-        <link rel="stylesheet" type="text/css" href="<?=base_url()?>theme/css/bootstrap.css">
-        <link rel="stylesheet" type="text/css" href="<?=base_url()?>theme/plugins/jquery-ui/jquery-ui.css?v=3.2">
-        <link rel="stylesheet" type="text/css" href="<?=base_url()?>theme/plugins/select2/css/select2.min.css?v=3.2">
-		<link rel="stylesheet" type="text/css" href="<?=base_url()?>theme/css/style.css?v=3.3">
+        <link rel="stylesheet" type="text/css" href="<?=ASSET_SERVER?>theme/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="<?=ASSET_SERVER?>theme/css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="<?=ASSET_SERVER?>theme/plugins/jquery-ui/jquery-ui.css?v=3.2">
+        <link rel="stylesheet" type="text/css" href="<?=ASSET_SERVER?>theme/plugins/select2/css/select2.min.css?v=3.2">
+		<link rel="stylesheet" type="text/css" href="<?=ASSET_SERVER?>theme/css/style.css?v=3.3">
 		<!-- Color css -->
-		<link rel="stylesheet" id="jssDefault" href="<?=base_url()?>theme/css/theme-default.css?v=3.2">
-        <link rel="stylesheet" id="jssDefault" href="<?=base_url()?>theme/css/jquery.mobile-menu.css?v=3">
-		<link rel="stylesheet" type="text/css" href="<?=base_url()?>theme/css/responsive/responsive.css?v=3.3">
-        <link rel="stylesheet" type="text/css" href="<?=base_url()?>theme/js/jquery-upload-file/css/uploadfile.css?v=3.2" />
-        <link rel="stylesheet" type="text/css" href="<?=base_url()?>theme/js/select2/dist/css/select2.min.css?v=3.2">
+		<link rel="stylesheet" id="jssDefault" href="<?=ASSET_SERVER?>theme/css/theme-default.css?v=3.2">
+        <link rel="stylesheet" id="jssDefault" href="<?=ASSET_SERVER?>theme/css/jquery.mobile-menu.css?v=3">
+		<link rel="stylesheet" type="text/css" href="<?=ASSET_SERVER?>theme/css/responsive/responsive.css?v=3.3">
+        <link rel="stylesheet" type="text/css" href="<?=ASSET_SERVER?>theme/js/jquery-upload-file/css/uploadfile.css?v=3.2" />
+        <link rel="stylesheet" type="text/css" href="<?=ASSET_SERVER?>theme/js/select2/dist/css/select2.min.css?v=3.2">
 
 		<!--[if lt IE 9]>
-			<script src="<?=base_url()?>theme/js/html5shiv.js"></script>
+			<script src="<?=ASSET_SERVER?>theme/js/html5shiv.js"></script>
 		<![endif]-->
 		 <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
