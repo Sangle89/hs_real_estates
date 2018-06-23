@@ -1,19 +1,3 @@
-<style>
-.footer_links{
-    padding: 10px 0;
-    border-top:1px solid #ddd;
-    text-align: left;
-}
-.footer_links a{
-    display: inline-block;
-    padding: 0 10px;
-    border-right:1px solid #ddd;
-    color:#000;
-}
-.footer_links a:last-child{
-    border:0;
-}
-</style>
 <footer id="footer">
             <div class="main-wrap-content">
             <div class="top-footer">
@@ -62,7 +46,7 @@
                     <div class="bottom_footer">
                         <div class="row">
                             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                <img src="<?=base_url('theme/images/logo-footer.svg')?>">
+                                <img src="<?=ASSET_SERVER . 'theme/images/logo-footer.svg'?>">
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-left">
                                 <div class="footer-menu">

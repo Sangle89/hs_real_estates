@@ -94,7 +94,9 @@ class Main extends MY_Controller {
                     }
                     
                 } else {
-                    $this->error404();
+                    redirect(base_url(), 'location', 301);
+					exit();
+					//$this->error404();
                 }
             }
         }
@@ -1150,7 +1152,7 @@ class Main extends MY_Controller {
         $this->breadcrumb->append_crumb($category['title'].' tại dự án '.$project['title'], '#');
         
         $this->data['list_link_location'] = $this->main_model->_Get_Link_By_Location(array('category_id' => $id));
-        
+        $text_sub_address = '';
         if($project['street_id'] && $project['district_id']) {
             $district = $this->main_model->_Get_District_By_Id($project['district_id']);
             $this->data['title_search_area'] = $category['title'] . ' theo diện tích tại ' . $district['title'];
@@ -1163,13 +1165,17 @@ class Main extends MY_Controller {
             $district = $this->main_model->_Get_District_By_Id($project['district_id']);
             $this->data['title_search_area'] = $category['title'] . ' theo diện tích tại ' . $district['title'];
             $this->data['title_search_price'] = $category['title'] . ' theo giá tại ' . $district['title'];
+            $city = $this->main_model->_Get_City_By_Id($project['city_id']);
+            $text_sub_address .= $district['title'].', '.$city['title'];
         }elseif($project['city_id']) {
             $city = $this->main_model->_Get_City_By_Id($project['city_id']);
             $this->data['title_search_area'] = $category['title'] . ' theo diện tích tại ' . $city['title'];
             $this->data['title_search_price'] = $category['title'] . ' theo giá tại ' . $city['title'];
+            $text_sub_address .= $city['title'];
         } else {
             $this->data['title_search_area'] = $category['title'] . ' theo diện tích tại Hồ Chí Minh';
             $this->data['title_search_price'] = $category['title'] . ' theo giá tại Hồ Chí Minh';
+            $text_sub_address .= 'Hồ Chí Minh';
         }
         
         
@@ -1429,13 +1435,15 @@ class Main extends MY_Controller {
         $seo_meta = $this->main_model->_Get_Seo_Url($this->uri->segment(1));
         if($seo_meta && $seo_meta['title'] != '') {
             if($page == 1) {
-                $title = $seo_meta['title'] . ' | Muonnha.com.vn';    
+                $title = $seo_meta['title'] . str_replace(", "," - ", $title_ext) . ' | Muonnha.com.vn';    
             } else {
-                $title = $seo_meta['title']. ' - Trang ' . $page . ' | Muonnha.com.vn';
+                $title = $seo_meta['title'] . str_replace(", "," - ", $title_ext) . ' - Trang ' . $page . ' | Muonnha.com.vn';
             }
         } else {
-            $title = $project['meta_title'] . ' | Muonnha.com.vn';
+            //$title = $project['meta_title'] . str_replace(", "," - ", $title_ext) . ' | Muonnha.com.vn';
+            $title = $category['title'] . ' tại dự án '.$project['title'] . str_replace(", "," - ", $title_ext) . ' | Muonnha.com.vn';
         }
+        
         if($seo_meta && $seo_meta['keyword'] != '') {
             if($page==1) {
                 $keywords = $seo_meta['keyword'];    
@@ -1444,7 +1452,7 @@ class Main extends MY_Controller {
             }
             
         } else {
-            $keywords = $project['keywords'] . $title_ext;
+            $keywords = $category['title'] . ' tại dự án ' . $project['title'] . $title_ext;
         }
         if($seo_meta && $seo_meta['description'] != '') {
             if($page==1) { 
@@ -1453,7 +1461,7 @@ class Main extends MY_Controller {
                 $description = $seo_meta['description'].' Trang '.$page;
             }
         } else {
-           $description = $project['description'];
+           $description = $category['title'].' tại '.$project['title'].', '.$text_sub_address.': với các loại diện tích, giá cho thuê, địa điểm khác nhau. '.$category['title'].' tại '.$project['title'].', '.$text_sub_address.', thuê và cho thuê nhà đất, đầy đủ, cập nhật nhất.';
         }
             $config=array(
                 'title' => $title,
@@ -1485,8 +1493,35 @@ class Main extends MY_Controller {
     * Ch tiết tin đăng
     */
     function real_estate($id) {
+        $real_estate = $this->main_model->_Get_Real_Estate_By_Id($id);
         
-        $this->data['real_estate'] = $this->main_model->_Get_Real_Estate_By_Id($id);
+        if(empty($real_estate)){
+             redirect(base_url(), 'location', 301);
+            exit();    
+        } else {
+            if($real_estate['trash'] == 1 || $real_estate['status'] != 'active') {
+                $this->db->select('key')->from('app_routes')->where('controller', 'search')->where('category_id', $real_estate['category_id']);
+                if($real_estate['district_id']) {
+                    $this->db->where('district_id', $real_estate['district_id'])
+                    ->where('city_id', $real_estate['city_id'])
+                    ->where('search_level', 'district');
+                }elseif($real_estate['city_id']) {
+                    $this->db->where('city_id', $real_estate['city_id'])
+                    ->where('search_level', 'city');
+                }
+                $result = $this->db->get()->row_array();
+              
+				if(!empty($result)) {
+                    redirect(site_url($result['key']), 'location', 301);
+                    exit();
+                } else {
+                     redirect(base_url(), 'location', 301);
+                    exit();  
+                }
+            } 
+        }
+        
+        $this->data['real_estate'] = $real_estate;
         $this->data['real_estate']['search_title'] = $this->main_model->_Create_Search_Title($this->data['real_estate']);
         $this->data['real_estate_images'] = $this->main_model->_Get_Real_Estate_Images($id);
         $this->data['category'] = $this->main_model->_Get_Real_Estate_Category_By_Id($this->data['real_estate']['category_id']);

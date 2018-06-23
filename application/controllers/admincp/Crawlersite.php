@@ -442,6 +442,7 @@ class CrawlerSite extends MY_Admin {
 			if(!empty($find_title)) {
 				foreach($find_title as $item) {
 					$title = $item->plaintext;
+                    $title = sub_string($title, 130);
                     //Title
                     $insert['title'] = trim($title);
 				}    
@@ -546,6 +547,7 @@ class CrawlerSite extends MY_Admin {
                         if($image_uploaded) $images[] = $image_uploaded;
                         
                         $image_id++;
+                        if($image_id == 3) break;
                     }
     			}
                 $insert['image_default'] = 0;
@@ -622,6 +624,7 @@ class CrawlerSite extends MY_Admin {
 			if(!empty($find_title)) {
 				foreach($find_title as $item) {
 					$title = $item->plaintext;
+                    //$title = sub_string($title, 130);
                     //Title
                     $insert['title'] = trim($title);
 				}    
@@ -696,6 +699,7 @@ class CrawlerSite extends MY_Admin {
                             $image_uploaded = $this->save_base64_image($image_base64, $image_name);
                             if($image_uploaded) $images[] = $image_uploaded;
                             $image_id++;
+                            if($image_id == 3) break;
                         }
                     }
                 }
@@ -847,6 +851,7 @@ class CrawlerSite extends MY_Admin {
                             $image_uploaded = $this->save_base64_image($image_base64, $image_name);
                             if($image_uploaded) $images[] = $image_uploaded;
                             $image_id++;
+                            if($image_id == 3) break;
                         }
                     }
                 }
@@ -998,6 +1003,7 @@ class CrawlerSite extends MY_Admin {
                             $image_uploaded = $this->save_base64_image($image_base64, $image_name);
                             if($image_uploaded) $images[] = $image_uploaded;
                             $image_id++;
+                            if($image_id == 3) break;
                         }
                     }
                 }

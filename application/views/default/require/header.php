@@ -4,9 +4,9 @@
                     <div class="mm-toggle"> <i class="fa fa-bars"></i> </div>
                     <div class="text-center mb-logo">
                     <?php if(isset($cur_page) && $cur_page=='home') : ?>
-						<img src="<?=base_url()?>theme/images/mlogo.svg" height="45" alt="Logo" id="logo">
+						<img src="<?=ASSET_SERVER?>theme/images/mlogo.svg" height="45" alt="Logo" id="logo">
 					<?php else: ?>
-                    <a href="<?=site_url()?>"><img height="45" src="<?=base_url()?>theme/images/mlogo.svg" alt="Logo" id="logo"></a>
+                    <a href="<?=site_url()?>"><img height="45" src="<?=ASSET_SERVER?>theme/images/mlogo.svg" alt="Logo" id="logo"></a>
 					<?php endif; ?>
                     </div>
 					<?php if($this->uri->segment(1) != '') : ?>
@@ -39,7 +39,7 @@
                     <a href="<?=site_url('trang-ca-nhan')?>">Tài khoản</a>&nbsp;&nbsp;
                     <a href="/dang-xuat.htm">Đăng xuất</a>
                     <?php else: ?>
-                    <div class="avatar"><img src="/theme/images/avatar.png" alt=""></div>
+                    <div class="avatar"><img src="<?=ASSET_SERVER?>theme/images/avatar.png" alt=""></div>
                     <a href="/dang-nhap.htm">Đăng nhập</a>&nbsp;&nbsp;
                     <a href="/dang-ky.htm">Đăng ký</a>
                     <?php endif; ?>

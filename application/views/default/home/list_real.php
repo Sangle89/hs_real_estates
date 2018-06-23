@@ -12,7 +12,7 @@ if(USERTYPE == 'PC') :
                     foreach($real_estate_featured as $result) { 
                         $thumb = $this->main_model->_Get_Real_Estate_Image($result['id']);  
                         //Resize 360x260
-                        $image_resize = $this->image_model->resize($thumb, 360, 260, 'images');
+                        $result['image_resize'] = $this->image_model->resize($thumb, 360, 260, 'images');
                                   
                         if($result['type_id'] == 1)
                                 $class = 'pro';
@@ -22,27 +22,8 @@ if(USERTYPE == 'PC') :
                                 $class = 'vip2';
                         else
                                 $class = 'normal';
-                            ?>
-                    <article class="col-md-4">
-                        <div class="properties_grid feature">
-								<div class="img_holder">
-									<a href="<?=site_url($result['alias'])?>" title="<?=$result['title']?>"> <img src="<?=base_url($image_resize)?>" onerror="this.src='<?=ASSET_SERVER.'theme/images/thumb_350x250.jpg'?>'" alt="<?=$result['title']?>" class="img-responsive"></a>
-        	                   </div> <!-- End .img_holder -->
-                                <div class="info">
-								    <h3 class="<?=$class?>"><a href="<?=site_url($result['alias'])?>" title="<?=$result['title']?>"><?=format_title(sub_string($result['title'],65))?></a></h3>
-									<address><i class="fa fa-map-marker"></i> <?=$result['district_title']?>, Hồ Chí Minh</address>
-                                    <div class="meta">
-                                        <span class="area"><i class="fa fa-area-chart"></i>&nbsp;<?=$result['area']!=0 ? $result['area'].'m2':'Không xác định'?></span>
-                                        <span class="price"><?php
-                                        if($result['price_unit']==0 || $result['price_number'] == 0) echo 'Thỏa thuận';
-                                        else echo $result['price_number'].' '._Price_Label($result['price_unit']);
-                                        ?></span>
-									   </div>
-								</div>
-                                
-							</div> <!-- End .properties_details -->
-                    </article>
-                    <?php } ?>
+                        $this->load->view('default/home/real_estate_single', array('result' => $result));
+                         } ?>
                 </div>
                 
             </div>
@@ -52,133 +33,35 @@ if(USERTYPE == 'PC') :
 <?php if(USERTYPE == 'Mobile') : ?>
 <section style="padding: 0 5px;margin-top:15px;">
 <style>
-.group-prd {
-    margin: 0 -5px;
-    list-style: none;
-    padding:0;
-}
-
-.group-prd>li {
-    float: left;
-    padding: 0 5px;
-    border-bottom: 1px solid #eee
-}
-
-.group-prd.group-1cl {
-    margin-right: 0;
-    margin-left: 0
-}
-
-.group-1cl>li {
-    width: 100%;
-    padding: 8px 11px 8px 0
-}
-
-.group-2cl>li {
-    width: 50%
-}
-
-.group-3cl>li {
-    width: 33.333%
-}
-
-.group-4cl>li {
-    width: 25%
-}
-
-.group-5cl>li {
-    width: 20%
-}
-.group-prd > li .title-14{
-	margin-bottom: 5px;
-	font-weight:bold;
-}
-.group-prd .box-prd {
-    display: inline-block;
-    width: 100%;
-    background: #fff;
-    border: 1px solid #d2d2d2
-}
-
-.group-prd .box-prd:hover {
-    box-shadow: 0 1px 2px rgba(0, 0, 0, .15);
-    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .15);
-    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .15)
-}
-
-.group-prd .image {
-    overflow: hidden;
-    text-align: center;
-    position: relative
-}
-
-.group-prd .content {
-    padding-top: 10px
-}
-
-.group-prd .box-prd .content {
-    padding: 10px
-}
-
-.group-prd .title-2row {
-    height: 40px;
-    line-height: 20px;
-    overflow: hidden
-}
-
-.group-prd .title-3row {
-    height: 54px;
-    line-height: 18px;
-    overflow: hidden
-}
-
-.group-prd .content>*:last-child {
-    margin-bottom: 0 !important
-}
-
-.group-prd.group-flipVer .content {
-    padding-top: 0;
-    padding-bottom: 10px
-}
-
-.group-prd.group-horPrd .image {
-    float: left
-}
-
-.group-prd.group-horPrd .content {
-    display: table;
-    padding: 0 0 0 10px
-}
-.group-prd .title-14 a{
-	text-transform: normal;
-	font-weight:bold;
-	color:#015f95;
-    font-size: 14px;
-}
-.group-prd .title-14 a.vip1,
-.group-prd .title-14 a.vip2{
-	color:red;
-	text-transform:uppercase;
-}
-.group-prd .content {
-    padding: 10px
-}
-
-.group-prd.group-horPrd .content .row {
-    overflow: hidden;
-    height: 100%
-}
-.group-prd.group-horPrd .content .price .text{
-	font-weight:bold;
-	color:#38a345;
-}
-.group-prd.group-horPrd .content .area .text{
-	font-weight:bold;
-}
+.group-prd{margin:0 -5px;list-style:none;padding:0}
+.group-prd>li{float:left;padding:0 5px;border-bottom:1px solid #eee}
+.group-prd.group-1cl{margin-right:0;margin-left:0}
+.group-1cl>li{width:100%;padding:8px 11px 8px 0}
+.group-2cl>li{width:50%}
+.group-3cl>li{width:33.333%}
+.group-4cl>li{width:25%}
+.group-5cl>li{width:20%}
+.group-prd > li .title-14{margin-bottom:5px;font-weight:700}
+.group-prd .box-prd{display:inline-block;width:100%;background:#fff;border:1px solid #d2d2d2}
+.group-prd .box-prd:hover{box-shadow:0 1px 2px rgba(0,0,0,.15);-moz-box-shadow:0 1px 2px rgba(0,0,0,.15);-webkit-box-shadow:0 1px 2px rgba(0,0,0,.15)}
+.group-prd .image{overflow:hidden;text-align:center;position:relative}
+.group-prd .content{padding-top:10px}
+.group-prd .box-prd .content{padding:10px}
+.group-prd .title-2row{height:40px;line-height:20px;overflow:hidden}
+.group-prd .title-3row{height:54px;line-height:18px;overflow:hidden}
+.group-prd .content>:last-child{margin-bottom:0!important}
+.group-prd.group-flipVer .content{padding-top:0;padding-bottom:10px}
+.group-prd.group-horPrd .image{float:left}
+.group-prd.group-horPrd .content{display:table;padding:0 0 0 10px}
+.group-prd .title-14 a{text-transform:normal;font-weight:700;color:#015f95;font-size:14px}
+.group-prd .title-14 a.vip1,.group-prd .title-14 a.vip2{color:red;text-transform:uppercase}
+.group-prd .content{padding:10px}
+.group-prd.group-horPrd .content .row{overflow:hidden;height:100%}
+.group-prd.group-horPrd .content .price .text{font-weight:700;color:#38a345}
+.group-prd.group-horPrd .content .area .text{font-weight:700}
 </style>
 <h2 style="text-align: center;font-weight: bold;color: #38a345;font-size:15px;"><i class="fa fa-home"></i> Nhà cho thuê nổi bật</h2>
-                <p style="text-align: center;font-size:12px;margin-bottom:15px;">Muonnha.com.vn đồng hành với bạn từ quá trình tìm kiếm cho đến khi giao dịch thành công ngôi nhà yêu thích của bạn.</p>
-                
+<p style="text-align: center;font-size:12px;margin-bottom:15px;">Muonnha.com.vn đồng hành với bạn từ quá trình tìm kiếm cho đến khi giao dịch thành công ngôi nhà yêu thích của bạn.</p>     
 <ul class="group-prd group-horPrd group-1cl list-prd-hp clearfix">
 <?php
                     $real_estate_featured = $this->main_model->_Get_Real_Estate_Featured(9,0);

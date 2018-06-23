@@ -5,8 +5,8 @@
         <script>
         var base_url = '<?=site_url()?>';
         </script>
-        <script type="text/javascript" src="<?=base_url()?>theme/js/jquery-2.1.4.js"></script>
-        <script type="text/javascript" src="<?=base_url()?>theme/js/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="<?=ASSET_SERVER?>theme/js/jquery-2.1.4.js"></script>
+        <script type="text/javascript" src="<?=ASSET_SERVER?>theme/js/jquery-ui.min.js"></script>
 </head>
 <body class="<?=$cur_page?>">
 <?php if($this->uri->segment(1)==''):?>
@@ -20,11 +20,10 @@
         <?php echo $content_for_website; ?>
         <?php $this->load->view('default/require/footer'); ?>
         
-        <div class="btnfixedpost hidden-xs" style="display: none;"><a href="/dang-tin-cho-thue-nha.htm" rel="nofollow"><img id="sm" src="/theme/images/buttonfly-miniv2.png">
-        <img src="/theme/images/buttonflyv2.png" style="display: none;" id="lg"></a></div>
-        <a class="go-to-top" id="go-to-top" style="display: none;" rel="nofollow"><img src="/theme/images/lendau.png"></a>
+        <div class="btnfixedpost hidden-xs" style="display: none;"><a href="<?=site_url('dang-tin-cho-thue-nha.htm')?>" rel="nofollow"><img id="sm" src="<?=ASSET_SERVER?>theme/images/buttonfly-miniv2.png">
+        <img src="<?=ASSET_SERVER?>theme/images/buttonflyv2.png" style="display: none;" id="lg"></a></div>
+        <a class="go-to-top" id="go-to-top" style="display: none;" rel="nofollow"><img src="<?=ASSET_SERVER?>theme/images/lendau.png"></a>
 		<script type="text/javascript" src="<?=ASSET_SERVER?>theme/js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="<?=ASSET_SERVER?>theme/js/jquery-ui.min.js"></script>
         <script type="text/javascript" src="<?=ASSET_SERVER?>theme/js/jquery.mobile-menu.js"></script>
 		<script type="text/javascript" src="<?=ASSET_SERVER?>theme/js/jquery.validate.min.js"></script>
 		<script type="text/javascript" src="<?=ASSET_SERVER?>theme/js/jquery.form.min.js"></script>
@@ -32,12 +31,15 @@
         <script type="text/javascript" src="<?=ASSET_SERVER?>theme/js/select2/dist/js/select2.full.min.js"></script>
 		<script type="text/javascript" src="<?=ASSET_SERVER?>theme/js/app.js?v=3.0"></script>
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.2/jquery.matchHeight-min.js"></script>
-		<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.7/jquery.lazy.min.js"></script>
-		<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.7/jquery.lazy.plugins.min.js"></script>
+		<script type="text/javascript" src="<?=ASSET_SERVER?>theme/plugins/lazyload/jquery.lazy.min.js"></script>
+		<script type="text/javascript" src="<?=ASSET_SERVER?>theme/plugins/lazyload/jquery.lazy.plugins.min.js"></script>
         <script>
 		$(function() {
-	$('.matchheight').matchHeight();
-});
+        	$('.matchheight').matchHeight();
+            $("img.lazy").Lazy({
+			// placeholder: '<?=ASSET_SERVER?>theme/images/loading.gif'
+			});
+        });
         $(document).ready(function() {
             $("#mobile-menu").mobileMenu({
             	MenuWidth: 220,
@@ -61,7 +63,7 @@
                 $('#sm').show();
                $('#lg').hide(); 
             });
-			$("img.lazy").Lazy();
+			
         });
         </script>
 	</div>
