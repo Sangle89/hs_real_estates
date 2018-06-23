@@ -1,4 +1,4 @@
-<?php $this->load->view('default/require/breadcrumb', $search_param); ?>
+<?php //$this->load->view('default/require/breadcrumb', $search_param); ?>
 <style>
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{border:0}
 .project-detail {
@@ -26,6 +26,9 @@ $(document).ready(function(){
     <div class="main-wrap-content property_listing">
         <div class="property_type row">
             <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 col-list-left">
+                <?php if(USERTYPE == 'PC') : ?>
+            <?=$this->breadcrumb->output()?>
+            <?php endif ?>
                 <div class="main_title">
                 <h1 style="margin-top:0;"><?=$heading_title?></h1>
             </div>
@@ -142,7 +145,7 @@ $(document).ready(function(){
                             </div>
                             <div class="clearfix"></div>
                         </div><!--end tab list-->
-                        
+                        <?php $this->load->view('default/estate/category/banner9'); ?>    
                         <div class="row">
                             <?php 
                             $list_ignore = array();
@@ -166,12 +169,12 @@ $(document).ready(function(){
 							
 							<div class="properties_details">
 								<div class="img_holder">
-									<a href="<?=site_url($result['alias'])?>" title="<?=$result['title']?>"> <img src="<?=base_url('timthumb.php?image='.$thumb.'&w=150&h=150&zc=1')?>" onerror="this.src='<?=base_url('theme/images/thumb.jpg')?>'" alt="<?=$result['title']?>" class="img-responsive"></a>
+									<a href="<?=site_url($result['alias'])?>" title="<?=$result['title']?>"> <img src="<?=base_url('uploads/thumb/images/'.$thumb)?>" onerror="this.src='<?=base_url('theme/images/thumb.jpg')?>'" alt="<?=$result['title']?>" class="img-responsive"></a>
         	                   </div> <!-- End .img_holder -->
 
 								<div class="text">
                                     <div class="properties_title">
-                                        <h3 class="<?=$class?>"><a href="<?=site_url($result['alias'])?>" title="<?=$result['title']?>"><?=sub_string($result['title'], 100)?></a></h3>
+                                        <h3 class="<?=$class?>"><a href="<?=site_url($result['alias'])?>" title="<?=$result['title']?>"><?=format_title(sub_string($result['title'], 100))?></a></h3>
 								    </div>
 									<div class="meta">
                                     <span class="price"><strong><?php
@@ -294,135 +297,17 @@ $(document).ready(function(){
                 <div style="margin: 15px; 0">
                 <?php echo $category_content; ?>
                 </div>
-                
             </div>
-            
             <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-
                 <div class="sidebar_style_two">
-                    <div id="sidebar-box-fixed" style="background: #fff;z-index: 999;">
-                        
-
-                    </div>
-                    <?php //$this->load->view('default/require/box_mxh'); ?>
-                        <br>
-
-                        <!--Banner QC-->
-
-                        <?php if(USERTYPE == "PC") : ?>
-                            <?php
-                        $banners = $this->main_model->_Get_Banner(5);
-                        $banner_left = '';
-                                    foreach($banners as $banner) {
-                                        if($banner['type']=='image') {
-                                            if($banner['image']!='' && file_exists('./uploads/banners/'.$banner['image']))
-                                            $banner_left .= '<a href="'.$banner['link'].'"  target="_blank"  style="" rel="nofollow"><img src="'.base_url('uploads/banners/'.$banner['image']).'" alt="" width="425" height="250" class="img-responsive"></a>';
-                                        } elseif($banner['type']=='adsense') {
-                                            $banner_left .= $banner['adsense'];
-                                        } elseif($banner['type']=='html5') {
-                                            $banner_left .= '<iframe frame-border="0" width="980px" height="90px" src="'.$banner['html5'].'"></iframe>';
-                                        }
-                                    }
-                    if($banner_left) :
-                    ?>
-                                <div class="banner-footer" style="margin-bottom: 15px;">
-                                    <?=$banner_left?>
-                                </div>
-                                <?php endif; ?>
-                                    <?php endif; ?>
-                                        <!--End banner QC-->
-                                        <?php if(!empty($list_category)) : ?>
-                                        <div class="boxed-list">
-                                            <!-- Main_title2__________ -->
-                                            <div class="boxed-heading-title">
-                                                <?php echo isset($title_list_category) ? $title_list_category : 'Danh mục tin đăng'?>
-                                            </div>
-                                            <!-- End Main_title2______ -->
-                                            <ul>
-                                            <?php
-                                                foreach($list_category as $category) {
-                                            ?>
-                                                    <li>
-                                                        <h3 style="margin: 0;"><a href="<?=site_url($category['alias'])?>"><?=$category['title']?></a> (<?=$category['total']?>)</h3></li>
-                                                    <?php } ?>
-                                            </ul>
-                                        </div>
-                                        <?php endif ?>
-                                       
-                                        
-                                        <div class="boxed-list">
-                                            <div class="boxed-heading-title">
-                                            <?php if(isset($title_list_category)) {
-                                                echo str_replace('theo phường', 'theo giá', $title_list_category);
-                                            } else echo 'Xem theo giá';
-                                            
-                                            ?>
-                                                
-                                            </div>
-                                            <ul class="filter">
-                                                <li><a href="<?=site_url($search_url.'/p1/-1')?>">Dưới 1 triệu</a></li>
-                                                <li><a href="<?=site_url($search_url.'/p2/-1')?>">1 - 2 triệu</a></li>
-                                                <li><a href="<?=site_url($search_url.'/p3/-1')?>">2 - 3 triệu</a></li>
-                                                <li><a href="<?=site_url($search_url.'/p4/-1')?>">3 - 5 triệu</a></li>
-                                                <li><a href="<?=site_url($search_url.'/p5/-1')?>">5 - 7 triệu</a></li>
-                                                <li><a href="<?=site_url($search_url.'/p6/-1')?>">7 - 10 triệu</a></li>
-                                                <li><a href="<?=site_url($search_url.'/p7/-1')?>">10 - 15 triệu</a></li>
-                                                <li><a href="<?=site_url($search_url.'/p8/-1')?>">Trên 15 triệu</a></li>
-                                            </ul>
-                                            
-                                        </div>
-                                        
-                                        <div class="boxed-list">
-                                            <div class="boxed-heading-title">
-                                                <?php if(isset($title_list_category)) {
-                                                echo str_replace('theo phường', 'theo diện tích', $title_list_category);
-                                            } else echo 'Xem theo diện tích'?>
-                                            </div>
-                                            <ul class="filter">
-                                                <li><a href="<?=site_url($search_url.'/-1/a1')?>">Dưới 20m<sup>2</sup></a></li>
-                                                <li><a href="<?=site_url($search_url.'/-1/a2')?>">20 - 30m<sup>2</sup></a></li>
-                                                <li><a href="<?=site_url($search_url.'/-1/a3')?>">30 - 50m<sup>2</sup></a></li>
-                                                <li><a href="<?=site_url($search_url.'/-1/a4')?>">50 - 60m<sup>2</sup></a></li>
-                                                <li><a href="<?=site_url($search_url.'/-1/a5')?>">60 - 70m<sup>2</sup></a></li>
-                                                <li><a href="<?=site_url($search_url.'/-1/a6')?>">70 - 80m<sup>2</sup></a></li>
-                                                <li><a href="<?=site_url($search_url.'/-1/a7')?>">80 - 90m<sup>2</sup></a></li>
-                                                <li><a href="<?=site_url($search_url.'/-1/a8')?>">90 - 100m<sup>2</sup></a></li>
-                                                <li><a href="<?=site_url($search_url.'/-1/a9')?>">Trên 100m<sup>2</sup></a></li>
-                                            </ul>
-                                        </div>
-                                        <!-- End .commercial_video -->
-                                        <!--Banner QC-->
-                                        <?php if(USERTYPE == "PC") : ?>
-                                            <?php
-                        $banners = $this->main_model->_Get_Banner(10);
-                        $banner_left = '';
-                                    foreach($banners as $banner) {
-                                        if($banner['type']=='image') {
-                                            if($banner['image']!='' && file_exists('./uploads/banners/'.$banner['image']))
-                                            $banner_left .= '<a href="'.$banner['link'].'"  target="_blank"  style="" rel="nofollow"><img src="'.base_url('uploads/banners/'.$banner['image']).'" alt="" width="425" height="250" class="img-responsive"></a>';
-                                        } elseif($banner['type']=='adsense') {
-
-                                            $banner_left .= $banner['adsense'];
-
-                                        } elseif($banner['type']=='html5') {
-
-                                            $banner_left .= '<iframe frame-border="0" width="980px" height="90px" src="'.$banner['html5'].'"></iframe>';
-
-                                        }
-
-                                    }
-
-                    if($banner_left) :
-
-                    ?>
-
-                                                <div class="banner-footer" style="margin-bottom: 15px;">
-                                                    <?=$banner_left?>
-                                                </div>
-
-                                                <?php endif; ?>
-
-                                                    <?php endif; ?>
+                    <div id="sidebar-box-fixed" style="background: #fff;z-index: 999;"></div>
+                    <?php $this->load->view('default/require/search_sidebar', $search_param); ?>
+                    <?php $this->load->view('default/estate/category/banner5'); ?>
+                    <?php $this->load->view('default/estate/category/list_category'); ?>
+                    <?php //$this->load->view('default/estate/category/feature_link'); ?>                    
+                    <?php $this->load->view('default/estate/category/filter_price'); ?>     
+                    <?php $this->load->view('default/estate/category/filter_area'); ?>                         
+                    <?php $this->load->view('default/estate/category/banner10'); ?>   
                 </div>
                 <!-- End .sidebar_style_two -->
 <?php $this->load->view('default/require/top3_content'); ?>

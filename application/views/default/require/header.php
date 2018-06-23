@@ -37,11 +37,11 @@
                     ?>
                     <div class="avatar"><img src="<?=base_url('uploads/avatar/'.$user->avatar)?>" alt=""></div>
                     <a href="<?=site_url('trang-ca-nhan')?>">Tài khoản</a>&nbsp;&nbsp;
-                    <a href="/dang-xuat.htm">Đăng xuất</a>
+                    <a href="<?=base_url()?>/dang-xuat.htm">Đăng xuất</a>
                     <?php else: ?>
                     <div class="avatar"><img src="<?=ASSET_SERVER?>theme/images/avatar.png" alt=""></div>
-                    <a href="/dang-nhap.htm">Đăng nhập</a>&nbsp;&nbsp;
-                    <a href="/dang-ky.htm">Đăng ký</a>
+                    <a href="<?=base_url()?>/dang-nhap.htm">Đăng nhập</a>&nbsp;&nbsp;
+                    <a href="<?=base_url()?>/dang-ky.htm">Đăng ký</a>
                     <?php endif; ?>
                 </div>
                 

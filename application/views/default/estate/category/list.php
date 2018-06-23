@@ -123,7 +123,11 @@
                             <div class="clearfix"></div>
                 </div><!--end tab list-->
                             <?php $this->load->view('default/estate/category/banner9'); ?>    
+                        <?php if(USERTYPE=='PC') : ?>
                         <div class="row">
+                        <?php else: ?>
+                        <ul class="group-prd group-horPrd group-1cl list-prd-hp clearfix">
+                        <?php endif; ?>
                             <?php 
                             $list_ignore = array();
                             if(count($results) > 0) :
@@ -141,44 +145,21 @@
                                 $class = 'vip2';
                             else
                                 $class = 'normal';
-                        ?>
                         
+                        if(USERTYPE == 'PC')
+                            $this->load->view('default/estate/category/pc_single_item', array('result'=>$result, 'thumb'=>$thumb));
+                        else{
+                            $image_resize = $this->image_model->resize($thumb, 123, 90, 'images');
+                            $this->load->view('default/estate/category/mobile_single_item', array('result'=>$result, 'image_resize'=>$image_resize));
+                        }
+                         $count++; }
                         
-						<div class="col-md-6 col-xs-12 single_properties <?=$class?>">
-							
-							<div class="properties_details">
-								<div class="img_holder">
-									<a href="<?=site_url($result['alias'])?>" title="<?=$result['title']?>"> <img class="lazy" data-src="<?=base_url('uploads/thumb/images/'.$thumb)?>" src="/theme/images/thumb.jpg" onerror="this.src='<?=base_url('theme/images/thumb.jpg')?>'" alt="<?=$result['title']?>" class="img-responsive"></a>
-        	                   </div> <!-- End .img_holder -->
-
-								<div class="text">
-                                    <div class="properties_title">
-                                        <h3 class="<?=$class?>"><a href="<?=site_url($result['alias'])?>" title="<?=$result['title']?>"><?=format_title(sub_string($result['title'], 100))?></a></h3>
-								    </div>
-									<div class="meta">
-                                    <span class="price"><strong><?php
-                                    
-                                        if($result['price_unit']==0 || $result['price_number']==0) echo 'Thỏa thuận';
-                                        else echo $result['price_number'].' '._Price_Label($result['price_unit']);
-                                        ?></strong></span>
-                                    <span><strong><?=$result['area']!=0 ? $result['area'].'m<sup>2</sup>':'Không xác định'?></strong></span>
-                                    <span><strong><?=$result['district_title'].', '.$result['city_title']?></strong></span>
-                                    </div>
-                                    <p class="sumary">
-                                    <?php
-                                    echo sub_string(str_replace(" "," ",$result['content']), 100);
-                                    ?>
-                                    </p>
-								</div> <!-- End .text -->
-                                <span class="public-date"><?=_Format_Date($result['create_time'])?></span>
-							</div> <!-- End .properties_details -->
-
-						</div> <!-- End .single_properties -->
-                        <?php $count++; }
                         else: ?>
+                        
                         <p style="text-align: center;margin: 15px 0;">Không có tin đăng trong mục này</p>
                         <?php endif ?>
                         <div class="clearfix"></div>
+                        
                         <?php if(!empty($results2)) : ?>
                         <div class="col-md-12">
                         <div style="font-size: 16px;color:#00588b;font-weight:bold;margin-bottom: 5px;">Có thể bạn quan tâm</div>
@@ -189,7 +170,8 @@
                         foreach($results2 as $result) { 
                             if(!in_array($result['id'], $list_ignore)) :
                             $thumb = $this->main_model->_Get_Real_Estate_Image($result['id']);    
-                            $image_resize = $this->image_model->resize($thumb, 150, 150, 'images');   
+                            $image_resize = $this->image_model->resize($thumb, 123, 90, 'images');   
+                            
                             if($result['type_id'] == 1)
                                 $class = 'pro';
                             elseif($result['type_id'] == 2) 
@@ -198,45 +180,20 @@
                                 $class = 'vip2';
                             else
                                 $class = 'normal';
-                        ?>
-                        
-                        
-						<div class="col-md-6 col-xs-12 single_properties <?=$class?>">
-							
-							<div class="properties_details">
-								<div class="img_holder">
-									<a href="<?=site_url($result['alias'])?>" title="<?=$result['title']?>"> <img src="<?=base_url($image_resize)?>" onerror="this.src='<?=base_url('theme/images/thumb.jpg')?>'" alt="<?=$result['title']?>" class="img-responsive"></a>
-        	                   </div> <!-- End .img_holder -->
-
-								<div class="text">
-                                    <div class="properties_title">
-                                        <h3 class="<?=$class?>"><a href="<?=site_url($result['alias'])?>" title="<?=$result['title']?>"><?=sub_string($result['title'], 100)?></a></h3>
-								    </div>
-									<div class="meta">
-                                    <span class="price"><strong><?php
-                                    
-                                        if($result['price_unit']==-1) echo 'Thỏa thuận';
-                                        else echo $result['price_number'].' '._Price_Label($result['price_unit']);
-                                        ?></strong></span>
-                                    <span><strong><?=$result['area']!=0 ? $result['area'].'m<sup>2</sup>':'Không xác định'?></strong></span>
-                                    <span><strong><?=$result['district_title'].', '.$result['city_title']?></strong></span>
-                                    </div>
-                                    <p class="sumary">
-                                    <?php
-                                    echo sub_string($result['content'], 130);
-                                    ?>
-                                    </p>
-								</div> <!-- End .text -->
-                                
-							</div> <!-- End .properties_details -->
-
-						</div> <!-- End .single_properties -->
-                        <?php $count++;endif; }
+                            
+                        if(USERTYPE == 'PC')
+                            $this->load->view('default/estate/category/pc_single_item', array('result'=>$result, 'thumb'=>$image_resize));
+                        else
+                            $this->load->view('default/estate/category/mobile_single_item', array('result'=>$result, 'image_resize'=>$image_resize));
+                            
+                         $count++;endif; }
                         ?>
                         <?php endif; ?>
-                        
+                        <?php if(USERTYPE=='PC'):?>
                         </div>
-                    
+                        <?php else: ?>
+                        </ul>
+                        <?php endif ?>
                     <?php if(!empty($list_most_search_link) && USERTYPE == 'Mobile'):?>
                             <div class="top-links">
                                 <ul class="nav nav-tabs">

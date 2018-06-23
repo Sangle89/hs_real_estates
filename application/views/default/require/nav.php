@@ -48,10 +48,10 @@
                 ?>
                 <a class="dropdown" data-toggle="dropdown" href="#" rel="nofollow"><i class="fa fa-user"></i>&nbsp;Tài khoản: <?=$user->first_name?><span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="/trang-ca-nhan/uspg-thong-tin-ca-nhan.htm" rel="nofollow"><i class="fa fa-user"></i> Thông tin cá nhân</a></li>
-                        <li><a href="/trang-ca-nhan/uspg-message.htm" rel="nofollow"><i class="fa fa-envelope"></i> Quản lý tin nhắn <span class="label label-danger pull-right"><?=$unread_msg?></span></a></li>
-                        <li><a href="/trang-ca-nhan/uspg-quan-ly-tin-rao.htm" rel="nofollow"><i class="fa fa-list"></i> Quản lý tin rao</a></li>
-                        <li><a href="/trang-ca-nhan/uspg-doi-mat-khau.htm" rel="nofollow"><i class="fa fa-lock"></i> Đổi mật khẩu</a></li>
+                        <li><a href="<?=base_url()?>/trang-ca-nhan/uspg-thong-tin-ca-nhan.htm" rel="nofollow"><i class="fa fa-user"></i> Thông tin cá nhân</a></li>
+                        <li><a href="<?=base_url()?>/trang-ca-nhan/uspg-message.htm" rel="nofollow"><i class="fa fa-envelope"></i> Quản lý tin nhắn <span class="label label-danger pull-right"><?=$unread_msg?></span></a></li>
+                        <li><a href="<?=base_url()?>/trang-ca-nhan/uspg-quan-ly-tin-rao.htm" rel="nofollow"><i class="fa fa-list"></i> Quản lý tin rao</a></li>
+                        <li><a href="<?=base_url()?>/trang-ca-nhan/uspg-doi-mat-khau.htm" rel="nofollow"><i class="fa fa-lock"></i> Đổi mật khẩu</a></li>
                         <li role="separator" class="divider"></li>
                         <li> <a href="<?=site_url('dang-xuat')?>" class="login" rel="nofollow"><i class="fa fa-download fa-rotate-270"></i> Đăng xuất</a></li>
                     </ul>

@@ -1,4 +1,3 @@
-<script type="text/javascript" src="<?=ASSET_SERVER?>theme/js/jquery-ui.min.js"></script>
 <link rel="stylesheet" type="text/css" href="<?=ASSET_SERVER?>/assets/dist/css/custom.css">
 <style>
 .upload_multi_image li.add_image{
@@ -592,7 +591,7 @@ var btn = document.getElementById('uploadImages'),
       msgBox = document.getElementById('msgBoxImages');
     var uploader = new ss.SimpleUpload({
         button: btn,
-        url:  '<?=ASSET_SERVER?>ajax/uploadRealEstate',
+        url:  '<?=ASSET_SERVER?>upload/uploadRealEstate',
         name: 'uploadfile',
         allowedExtensions: ["jpg", "jpeg", "png", "gif", "JPG", "JPEG", "PNG", "GIF"],
         multipart: true,
@@ -647,8 +646,7 @@ var btn = document.getElementById('uploadImages'),
           },
           onError( filename, errorType, status, statusText, response, uploadBtn, fileSize ) {
             progressOuter.style.display = 'none';
-            alert(statusText);
-            //msgBox.innerHTML = 'Unable to upload file 1';
+            $('#uploadMultiImage').after('Error upload !');
           }
 });
 

@@ -37,7 +37,7 @@
 		$(function() {
         	$('.matchheight').matchHeight();
             $("img.lazy").Lazy({
-			// placeholder: '<?=ASSET_SERVER?>theme/images/loading.gif'
+			 placeholder: '<?=ASSET_SERVER?>theme/images/loading.gif'
 			});
         });
         $(document).ready(function() {
